@@ -6,6 +6,11 @@ body {
   margin: 0;
 }
 
+.background-animation {
+  background-attachment: cover;
+  background-size: 100% auto;
+}
+
 .bg {
   animation: slide 10s ease-in-out infinite alternate;
   background-image: linear-gradient(
