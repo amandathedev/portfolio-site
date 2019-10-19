@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import About from "./About";
+
 import "../styles/content.css";
 
 export default class Content extends Component {
@@ -19,7 +19,6 @@ export default class Content extends Component {
           <div className="bg bg2"></div>
           <div className="bg bg3"></div>
         </div>
-        <About />
       </div>
     );
   }
