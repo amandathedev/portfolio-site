@@ -6,13 +6,40 @@ body {
   margin: 0;
 } */
 
-.background-animation {
+/* #ff0000 */
+/* #f5c425 */
+/* http://dragdropsite.github.io/waterpipe.js/ */
+
+.title {
   height: 100vh;
   overflow: hidden;
-  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  letter-spacing: 1px;
 }
 
-.bg {
+h1 {
+  background-image: url(https://thumbs.gfycat.com/PessimisticKeyAfricanelephant-size_restricted.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 6.5em;
+  line-height: 0.75;
+  margin: 10px 0;
+  margin-top: 0.2em;
+}
+
+.main-box {
+  background-color: rgba(255, 38, 0, 0.899);
+  background-image: url("../smoke.png");
+  opacity: 5%;
+}
+
+/* .bg {
   animation: slide 10s ease-in-out infinite alternate;
   background-image: linear-gradient(
     -60deg,
@@ -35,8 +62,8 @@ body {
 
 .bg3 {
   animation-duration: 30s;
-}
-
+} */
+/* 
 .content {
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 5em;
@@ -57,25 +84,25 @@ body {
   100% {
     transform: translateX(8%);
   }
-}
+} */
 
-h1 {
-  font-family: "Oxygen", sans-serif;
-  /* font-weight: 300; */
-  margin-left: 3.5%;
-  margin-top: 8%;
+/* h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 10vh;
   font-size: 3.6em;
-  color: white;
-  text-shadow: 2px 2px black;
-}
+  text-shadow: 2px 2px rgba(245, 10, 10, 0.384);
+} */
 
 h4 {
   font-family: "Raleway", sans-serif;
-  margin-left: 18%;
+  /* margin-left: 18%; */
+  text-align: center;
   font-weight: 300;
   font-size: 2em;
-  color: white;
-  text-shadow: 1px 1px black;
+  /* color: white; */
+  text-shadow: 1px 1px rgba(245, 10, 10, 0.384);
 }
 
 button {
