@@ -1,0 +1,16 @@
+.navbar {
+  background-color: rgba(249, 100, 20, 0.5);
+  color: black;
+}
+
+a:hover {
+  color: red;
+}
+
+a {
+  color: black;
+}
+
+.nav-item {
+  margin-left: 2.5em;
+}
