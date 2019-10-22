@@ -1,16 +1,48 @@
 .main-photo {
-  width: 20%;
+  width: 30%;
   border-radius: 50%;
-  margin-top: 5em;
-  margin-left: 5em;
+  /* margin-top: 5em; */
+  margin-right: 10%;
+  /* margin-left: 5em; */
+  box-shadow: 2px 2px 2px rgba(255, 225, 0, 0.646);
+  /* display: inline; */
+  float: right;
 }
 
 .about-div {
   width: 70%;
   margin-left: 15%;
   margin-top: 5%;
+  margin-bottom: 15%;
 }
 
 .underline {
-  background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
+  height: 3px;
+  width: 11%;
+  background: linear-gradient(135deg, #ff0000 0%, #e6b30d 100%);
+}
+
+.about-text {
+  margin-top: 3em;
+  width: 50%;
+}
+
+.btn-outline-danger {
+  border-radius: 0;
+  float: left;
+  margin-left: 8em;
+  margin-top: 3em;
+}
+
+.fa-cloud-download-alt {
+  margin-right: 10px;
+}
+
+.languages {
+  margin-top: 10em;
+}
+
+.fa-4x {
+  margin-top: 1em;
+  margin-bottom: 10px;
 }
