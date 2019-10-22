@@ -18,36 +18,64 @@ const About = () => {
         fermentum. Ac orci phasellus egestas tellus rutrum tellus pellentesque.
         In nulla posuere sollicitudin aliquam.
       </p>
-      <button type="button" class="btn draw btn-outline-danger">
+      <a
+        class="btn draw btn-outline-danger"
+        href="https://drive.google.com/uc?export=download&id=1X9tLL8wJjKnk6bcm8_jxiEDPZ3ifUItu"
+        download
+      >
         <i class="fas fa-cloud-download-alt"></i> Download My Résumé
-      </button>
-
+      </a>
       <div class="row languages">
-        <div class="col-4 col-md-4 col-lg-2 text-center mt-3">
+        <div class="col-4 col-md-4 col-lg-2 text-center">
           <i class="fab fa-js fa-4x"></i>
           <h6 class="font-weight-bold">Javascript</h6>
         </div>
-        <div class="col-4 col-md-4 col-lg-2 text-center mt-3">
+        <div class="col-4 col-md-4 col-lg-2 text-center">
           <i class="fab fa-react fa-4x"></i>
           <h6 class="font-weight-bold">React</h6>
         </div>
-        <div class="col-4 col-md-4 col-lg-2 text-center mt-3">
+        <div class="col-4 col-md-4 col-lg-2 text-center">
           <i class="far fa-gem fa-4x"></i>
           <h6 class="font-weight-bold">Ruby</h6>
         </div>
-        <div class="col-4 col-md-4 col-lg-2 text-center mt-3">
+        <div class="col-4 col-md-4 col-lg-2 text-center">
           <i class="fab fa-html5 fa-4x"></i>
           <h6 class="font-weight-bold">HTML</h6>
         </div>
-        <div class="col-4 col-md-4 col-lg-2 text-center mt-3">
+        <div class="col-4 col-md-4 col-lg-2 text-center">
           <i class="fab fa-css3-alt fa-4x"></i>
           <h6 class="font-weight-bold">CSS</h6>
         </div>
-        <div class="col-4 col-md-4 col-lg-2 text-center mt-3">
+        <div class="col-4 col-md-4 col-lg-2 text-center">
           <i class="fas fa-database fa-4x"></i>
           <h6 class="font-weight-bold">SQL</h6>
         </div>
+        <div class="col-4 col-md-4 col-lg-2 text-center">
+          <i class="fab fa-wordpress-simple fa-4x"></i>
+          <h6 class="font-weight-bold">Wordpress</h6>
+        </div>
+        <div class="col-4 col-md-4 col-lg-2 text-center">
+          <i class="fab fa-git-alt fa-4x"></i>
+          <h6 class="font-weight-bold">Git</h6>
+        </div>
+        <div class="col-4 col-md-4 col-lg-2 text-center">
+          <i class="fab fa-sass fa-4x"></i>
+          <h6 class="font-weight-bold">Sass</h6>
+        </div>
+        <div class="col-4 col-md-4 col-lg-2 text-center">
+          <i class="fab fa-bootstrap fa-4x"></i>
+          <h6 class="font-weight-bold">Bootstrap</h6>
+        </div>
+        <div class="col-4 col-md-4 col-lg-2 text-center">
+          <i class="fab fa-node-js fa-4x"></i>
+          <h6 class="font-weight-bold">Node</h6>
+        </div>
+        <div class="col-4 col-md-4 col-lg-2 text-center">
+          <i class="fab fa-python fa-4x"></i>
+          <h6 class="font-weight-bold">Python</h6>
+        </div>
       </div>
+      <hr></hr>
     </div>
   );
 };

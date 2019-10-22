@@ -1,0 +1,28 @@
+.portfolio-div {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.underline {
+  height: 3px;
+  width: 9%;
+  background: linear-gradient(135deg, #ff0000 0%, #e6b30d 100%);
+}
+
+.computer {
+  background: url("https://thedigideck.staging.wpengine.com/wp-content/uploads/2016/02/screen.png");
+  width: 540px;
+  height: 472px;
+  background-size: contain;
+}
+
+.computer-screen {
+  display: block;
+  position: absolute;
+  top: 62px;
+  left: 73px;
+  width: 405px;
+  height: 244px;
+}

@@ -1,11 +1,8 @@
 .main-photo {
   width: 30%;
   border-radius: 50%;
-  /* margin-top: 5em; */
   margin-right: 10%;
-  /* margin-left: 5em; */
   box-shadow: 2px 2px 2px rgba(255, 225, 0, 0.646);
-  /* display: inline; */
   float: right;
 }
 
@@ -13,12 +10,11 @@
   width: 70%;
   margin-left: 15%;
   margin-top: 5%;
-  margin-bottom: 15%;
 }
 
 .underline {
   height: 3px;
-  width: 11%;
+  width: 9%;
   background: linear-gradient(135deg, #ff0000 0%, #e6b30d 100%);
 }
 
