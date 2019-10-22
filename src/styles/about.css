@@ -4,3 +4,13 @@
   margin-top: 5em;
   margin-left: 5em;
 }
+
+.about-div {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+.underline {
+  background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
+}

@@ -9,8 +9,10 @@ a:hover {
 
 a {
   color: black;
+  font-size: 1.3em;
+  font-weight: 200;
 }
 
 .nav-item {
-  margin-left: 2.5em;
+  margin-left: 2em;
 }
