@@ -11,10 +11,20 @@
   background: linear-gradient(135deg, #ff0000 0%, #e6b30d 100%);
 }
 
-.computer {
-  background: url("https://thedigideck.staging.wpengine.com/wp-content/uploads/2016/02/screen.png");
+.computer-1 {
+  background: url("../speakto.jpg");
   width: 540px;
   height: 472px;
+  margin-top: 5em;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.computer-2 {
+  background: url("../ipad.png");
+  width: 540px;
+  height: 472px;
+  background-repeat: no-repeat;
   background-size: contain;
 }
 

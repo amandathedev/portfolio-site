@@ -19,12 +19,15 @@ const About = () => {
         In nulla posuere sollicitudin aliquam.
       </p>
       <a
-        class="btn draw btn-outline-danger"
+        class="btn btn-outline-danger"
         href="https://drive.google.com/uc?export=download&id=1X9tLL8wJjKnk6bcm8_jxiEDPZ3ifUItu"
         download
       >
         <i class="fas fa-cloud-download-alt"></i> Download My Résumé
       </a>
+      {/* <div>
+        <h4 className="skills-title">Skills</h4>
+      </div> */}
       <div class="row languages">
         <div class="col-4 col-md-4 col-lg-2 text-center">
           <i class="fab fa-js fa-4x"></i>
@@ -51,8 +54,8 @@ const About = () => {
           <h6 class="font-weight-bold">SQL</h6>
         </div>
         <div class="col-4 col-md-4 col-lg-2 text-center">
-          <i class="fab fa-wordpress-simple fa-4x"></i>
-          <h6 class="font-weight-bold">Wordpress</h6>
+          <i class="fab fa-vuejs fa-4x"></i>
+          <h6 class="font-weight-bold">Vue</h6>
         </div>
         <div class="col-4 col-md-4 col-lg-2 text-center">
           <i class="fab fa-git-alt fa-4x"></i>

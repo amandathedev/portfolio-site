@@ -26,8 +26,9 @@
 .btn-outline-danger {
   border-radius: 0;
   float: left;
-  margin-left: 8em;
-  margin-top: 3em;
+  margin-left: 5em;
+  margin-top: 2em;
+  font-size: 1.5em;
 }
 
 .fa-cloud-download-alt {
@@ -41,4 +42,9 @@
 .fa-4x {
   margin-top: 1em;
   margin-bottom: 10px;
+}
+
+.skills-title {
+  /* margin-bottom: 5em; */
+  text-align: center;
 }
