@@ -11,11 +11,11 @@ const Portfolio = () => {
           <div class="computer-screen-1"></div>
         </div>
       </div>
-      <div class="computer-2">
+      {/* <div class="computer-2">
         <div class="computer-screen">
           <div class="computer-screen-1"></div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -48,3 +48,51 @@
   /* margin-bottom: 5em; */
   text-align: center;
 }
+
+.javascript:hover {
+  color: #f0db4f;
+}
+
+.react:hover {
+  color: #61dbfb;
+}
+
+.ruby:hover {
+  color: #820c02;
+}
+
+.html:hover {
+  color: #e44d26;
+}
+
+.css:hover {
+  color: #264de4;
+}
+
+.sql:hover {
+  color: #00758f;
+}
+
+.vue:hover {
+  color: #41b883;
+}
+
+.git:hover {
+  color: #f1502f;
+}
+
+.sass:hover {
+  color: #c69;
+}
+
+.bootstrap:hover {
+  color: #602c50;
+}
+
+.node:hover {
+  color: #68a063;
+}
+
+.python:hover {
+  color: #4b8bbe;
+}
