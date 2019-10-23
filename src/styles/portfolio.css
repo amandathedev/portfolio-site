@@ -42,7 +42,7 @@
   grid-template-areas:
     'left1 left1 left1 right1 right1 right1'
     'left2 left2 left2 right2 right2 right2';
-  grid-gap: 10px;
+  grid-gap: 40px;
   padding: 10px;
 }
 
@@ -52,10 +52,54 @@
   font-size: 30px;
 }
 
-.card {
+.project-card {
   box-shadow: 2px 2px 2px gray;
+  border: none;
 }
 
-.card-text {
-  font-size: 0.8em;
+.project-card-text {
+  font-size: 0.7em;
+}
+
+.project-card-title {
+  font-size: 1.3em;
+  
+}
+
+.project-card-subtitle {
+  font-size: 0.7em;
+}
+
+.project-card-link {
+  font-size: 0.7em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: red;
+}
+
+.project-card-link:hover {
+  color: black;
+}
+
+.project-card:before {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 40px;
+  top: -2px;
+  left: -2px;
+  z-index:-1;
+  border-left: 3px solid rgba(255, 60, 0, 0.89);
+  border-top: 3px solid rgba(255, 60, 0, 0.89);
+}
+.project-card:after {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 40px;
+  right: -2px;
+  bottom: -2px;
+  z-index:-1;
+  /* border-right: 6px solid rgba(255, 60, 0, 0.89);
+  border-bottom: 6px solid rgba(255, 60, 0, 0.89); */
 }

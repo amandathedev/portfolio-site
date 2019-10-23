@@ -1,0 +1,14 @@
+.blog-div {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.blog-card-title {
+  font-weight: 700;
+}
+
+.blog-card-img {
+  height: 10em;
+}
