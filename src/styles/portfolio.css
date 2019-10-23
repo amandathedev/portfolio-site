@@ -11,27 +11,19 @@
   background: linear-gradient(135deg, #ff0000 0%, #e6b30d 100%);
 }
 
-.computer-screen {
-  display: block;
-  position: absolute;
-  top: 62px;
-  left: 73px;
-  width: 405px;
-  height: 244px;
-}
-
 /* Grid */
-.portfolio-grid {
+/* .portfolio-grid {
   display: grid;
   grid-template-areas:
     "photo1 text1 text1 text1 text1 text1"
     "text2 text2 text2 photo2 photo2 photo2"
-    "photo3 photo3 photo3 text3 text3 text3";
+    "photo3 photo3 photo3 text3 text3 text3"
+    "text4 text4 text4 photo4 photo4 photo4";
   grid-gap: 5px;
   background-color: #2196f3;
   padding: 5px;
-}
-
+} */
+/* 
 .item1 {
   grid-area: photo1;
   background: url("../speakto.jpg");
@@ -40,9 +32,9 @@
   margin-top: 1em;
   background-repeat: no-repeat;
   background-size: contain;
-}
+} */
 
-.item2 {
+/* .item2 {
   grid-area: text1;
 }
 .item3 {
@@ -55,18 +47,43 @@
   height: 472px;
   background-repeat: no-repeat;
   background-size: contain;
-}
+} */
 
-.item5 {
+/* .item5 {
   grid-area: photo3;
+  background: url("../drift.png");
+  width: 540px;
+  height: 472px;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .item6 {
   grid-area: text3;
-}
+} */
 
-.portfolio-grid > div {
+/* .portfolio-grid > div {
   background-color: rgb(255, 255, 255);
   text-align: center;
   padding: 5px 0;
-  /* font-size: 30px; */
+} */
+
+.big-screen {
+  background: url("../screen.jpg");
+  width: 1200px;
+  height: 872px;
+  margin-top: 4em;
+  margin-left: 4em;
+  background-repeat: no-repeat;
+  background-size: fit;
+}
+
+.carousel-item {
+  width: 76.5%;
+  margin-left: 3.5%;
+  margin-top: 3%;
+  height: 220em;
+}
+
+span {
+  color: black;
 }
