@@ -27,6 +27,35 @@
   margin-top: 3%;
 }
 
-span {
+.carousel-icon {
   color: black;
+}
+
+.item1 { grid-area: left1; }
+.item2 { grid-area: right1; }
+.item3 { grid-area: left2; }
+.item4 { grid-area: right2; }
+
+
+.project-descriptions {
+  display: grid;
+  grid-template-areas:
+    'left1 left1 left1 right1 right1 right1'
+    'left2 left2 left2 right2 right2 right2';
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.project-descriptions > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.card {
+  box-shadow: 2px 2px 2px gray;
+}
+
+.card-text {
+  font-size: 0.8em;
 }

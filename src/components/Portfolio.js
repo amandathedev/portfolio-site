@@ -44,53 +44,103 @@ const Portfolio = () => {
             </div>
           </div>
           <a
-            class="carousel-control-prev"
+            class="carousel-control-prev carousel-icon"
             href="#carouselExampleFade"
             role="button"
             data-slide="prev"
           >
-            <span
-              class="carousel-control-prev-icon carousel-icon"
-              aria-hidden="true"
-            ></span>
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
           </a>
           <a
-            class="carousel-control-next"
+            class="carousel-control-next carousel-icon"
             href="#carouselExampleFade"
             role="button"
             data-slide="next"
           >
-            <span
-              class="carousel-control-next-icon carousel-icon"
-              aria-hidden="true"
-            ></span>
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
         </div>
       </div>
-
-      {/* Grid */}
-      {/* <div class="portfolio-grid">
-        <div class="item1"></div>
+      <div class="project-descriptions">
+        <div class="item1">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">SpeakTo</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="card-link">
+                Card link
+              </a>
+              <a href="#" class="card-link">
+                Another link
+              </a>
+            </div>
+          </div>
+        </div>
         <div class="item2">
-          <h5>SpeakTo</h5>
-          <p>Here is a description of SpeakTo.</p>
-          <p>
-            <strong>Built with:</strong> React, Ruby on Rails (API), Bootstrap
-          </p>
+          {" "}
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">GrubCRUD</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="card-link">
+                Card link
+              </a>
+              <a href="#" class="card-link">
+                Another link
+              </a>
+            </div>
+          </div>
         </div>
         <div class="item3">
-          <h5>GrubCrud</h5>
-          <p>Here is a description of GrubCrud.</p>
-          <p>
-            <strong>Built with:</strong> Ruby on Rails, Bootstrap
-          </p>
+          {" "}
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Drift Calendar</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="card-link">
+                Card link
+              </a>
+              <a href="#" class="card-link">
+                Another link
+              </a>
+            </div>
+          </div>
         </div>
-        <div class="item4"></div>
-        <div class="item5">photo3</div>
-        <div class="item6">text3</div>
-      </div> */}
+        <div class="item4">
+          {" "}
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Calligraphy Portfolio</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="card-link">
+                Card link
+              </a>
+              <a href="#" class="card-link">
+                Another link
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr></hr>
     </div>
   );
 };
