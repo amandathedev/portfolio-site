@@ -11,23 +11,6 @@
   background: linear-gradient(135deg, #ff0000 0%, #e6b30d 100%);
 }
 
-.computer-1 {
-  background: url("../speakto.jpg");
-  width: 540px;
-  height: 472px;
-  margin-top: 5em;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.computer-2 {
-  background: url("../ipad.png");
-  width: 540px;
-  height: 472px;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
 .computer-screen {
   display: block;
   position: absolute;
@@ -35,4 +18,55 @@
   left: 73px;
   width: 405px;
   height: 244px;
+}
+
+/* Grid */
+.portfolio-grid {
+  display: grid;
+  grid-template-areas:
+    "photo1 text1 text1 text1 text1 text1"
+    "text2 text2 text2 photo2 photo2 photo2"
+    "photo3 photo3 photo3 text3 text3 text3";
+  grid-gap: 5px;
+  background-color: #2196f3;
+  padding: 5px;
+}
+
+.item1 {
+  grid-area: photo1;
+  background: url("../speakto.jpg");
+  width: 540px;
+  height: 472px;
+  margin-top: 1em;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.item2 {
+  grid-area: text1;
+}
+.item3 {
+  grid-area: text2;
+}
+.item4 {
+  grid-area: photo2;
+  background: url("../grubcrud.png");
+  width: 540px;
+  height: 472px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.item5 {
+  grid-area: photo3;
+}
+.item6 {
+  grid-area: text3;
+}
+
+.portfolio-grid > div {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 5px 0;
+  /* font-size: 30px; */
 }
