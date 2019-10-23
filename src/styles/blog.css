@@ -2,7 +2,7 @@
   width: 70%;
   margin-left: 15%;
   margin-top: 5%;
-  margin-bottom: 10%;
+  /* margin-bottom: 10%; */
 }
 
 .blog-card-title {
@@ -11,4 +11,13 @@
 
 .blog-card-img {
   height: 10em;
+}
+
+.blog-card-text {
+  /* height: 8em; */
+  margin-bottom: 2.5em;
+}
+
+.blog-card-group {
+  margin-top: 3em;
 }
