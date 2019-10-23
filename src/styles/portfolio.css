@@ -2,7 +2,7 @@
   width: 70%;
   margin-left: 15%;
   margin-top: 5%;
-  margin-bottom: 5%;
+  /* margin-bottom: 5%; */
 }
 
 .underline {
@@ -10,62 +10,6 @@
   width: 9%;
   background: linear-gradient(135deg, #ff0000 0%, #e6b30d 100%);
 }
-
-/* Grid */
-/* .portfolio-grid {
-  display: grid;
-  grid-template-areas:
-    "photo1 text1 text1 text1 text1 text1"
-    "text2 text2 text2 photo2 photo2 photo2"
-    "photo3 photo3 photo3 text3 text3 text3"
-    "text4 text4 text4 photo4 photo4 photo4";
-  grid-gap: 5px;
-  background-color: #2196f3;
-  padding: 5px;
-} */
-/* 
-.item1 {
-  grid-area: photo1;
-  background: url("../speakto.jpg");
-  width: 540px;
-  height: 472px;
-  margin-top: 1em;
-  background-repeat: no-repeat;
-  background-size: contain;
-} */
-
-/* .item2 {
-  grid-area: text1;
-}
-.item3 {
-  grid-area: text2;
-}
-.item4 {
-  grid-area: photo2;
-  background: url("../grubcrud.png");
-  width: 540px;
-  height: 472px;
-  background-repeat: no-repeat;
-  background-size: contain;
-} */
-
-/* .item5 {
-  grid-area: photo3;
-  background: url("../drift.png");
-  width: 540px;
-  height: 472px;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.item6 {
-  grid-area: text3;
-} */
-
-/* .portfolio-grid > div {
-  background-color: rgb(255, 255, 255);
-  text-align: center;
-  padding: 5px 0;
-} */
 
 .big-screen {
   background: url("../screen.jpg");
@@ -81,7 +25,6 @@
   width: 76.5%;
   margin-left: 3.5%;
   margin-top: 3%;
-  height: 220em;
 }
 
 span {
