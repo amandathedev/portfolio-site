@@ -1,9 +1,10 @@
 .main-photo {
-  width: 30%;
-  border-radius: 50%;
-  margin-right: 10%;
-  box-shadow: 2px 2px 2px rgba(255, 225, 0, 0.646);
-  float: right;
+  width: 40%;
+  border-radius: 10%;
+  margin-top: 3em;
+  margin-left: 30%;
+  box-shadow: 2px 2px 2px rgba(255, 94, 0, 0.646);
+  /* float: right; */
 }
 
 .about-div {
@@ -20,15 +21,35 @@
 
 .about-text {
   margin-top: 3em;
-  width: 50%;
+  width: 90%;
+  font-size: 1.2em;
+  text-align: center;
+  margin-left: 5%;
 }
 
 .btn-outline-danger {
   border-radius: 0;
-  float: left;
-  margin-left: 5em;
+  /* float: left; */
+  margin-left: 35%;
+  width: 30%;
   margin-top: 2em;
-  font-size: 1.5em;
+  font-size: 1.2em;
+}
+
+@media only screen and (max-width: 420px) {
+  .btn-outline-danger {
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .main-photo {
+    width: 60%;
+    margin-left: 20%;
+  }
+
+  .about-text {
+    font-size: 1em;
+  }
 }
 
 .fa-cloud-download-alt {
@@ -36,17 +57,12 @@
 }
 
 .languages {
-  margin-top: 10em;
+  margin-top: 5em;
 }
 
 .fa-4x {
   margin-top: 1em;
   margin-bottom: 10px;
-}
-
-.skills-title {
-  /* margin-bottom: 5em; */
-  text-align: center;
 }
 
 .javascript:hover {

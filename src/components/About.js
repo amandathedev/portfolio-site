@@ -24,9 +24,6 @@ const About = () => {
       >
         <i class="fas fa-cloud-download-alt"></i> Download My Résumé
       </a>
-      {/* <div>
-        <h4 className="skills-title">Skills</h4>
-      </div> */}
       <div class="row languages">
         <div class="col-4 col-md-4 col-lg-2 text-center">
           <i class="fab fa-js fa-4x javascript"></i>
@@ -77,7 +74,7 @@ const About = () => {
           <h6 class="font-weight-bold">Python</h6>
         </div>
       </div>
-      <hr></hr>
+      {/* <hr></hr> */}
     </div>
   );
 };
