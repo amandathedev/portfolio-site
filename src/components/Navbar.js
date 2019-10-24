@@ -27,10 +27,10 @@ const Navbar = () => {
             <a class="nav-item nav-link" href="#portfolio">
               PORTFOLIO
             </a>
-            <a class="nav-item nav-link" href="#blog" tabindex="-1">
+            <a class="nav-item nav-link" href="#blog">
               BLOG
             </a>
-            <a class="nav-item nav-link" href="#contact" tabindex="-1">
+            <a class="nav-item nav-link" href="#contact">
               CONTACT
             </a>
           </div>
