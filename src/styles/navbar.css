@@ -16,3 +16,8 @@ a {
 .nav-item {
   margin-left: 1.6em;
 }
+
+.navbar-toggler-icon {
+  color: rgb(48, 46, 46);
+  font-size: 1.4em;
+}

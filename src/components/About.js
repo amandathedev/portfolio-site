@@ -8,15 +8,14 @@ const About = () => {
       <div className="underline"></div>
       <img className="main-photo" src="https://i.imgur.com/PJ3SD5X.jpg"></img>
       <p className="about-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum. Tortor aliquam nulla facilisi cras
-        fermentum. Ac orci phasellus egestas tellus rutrum tellus pellentesque.
-        In nulla posuere sollicitudin aliquam.
+        Hello! I'm Amanda Treutler. I just graduated from the software
+        engineering program at Flatiron School. I developed an interest in
+        computer programming when I was working on my Master's thesis, which
+        focused on computational Linguistics. After grad school, I was traveling
+        all over the world working remotely in marketing, but I was always
+        trying to teach myself to code in my free time. I decided to follow my
+        passion and make programming a full-time career. Scroll further to check
+        out some of the things I've built!
       </p>
       <a
         class="btn btn-outline-danger"
