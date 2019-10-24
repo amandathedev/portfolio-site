@@ -4,3 +4,41 @@
   margin-top: 5%;
   margin-bottom: 10%;
 }
+
+.underline-contact {
+  margin-bottom: 3em;
+}
+
+.contact-p {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 3em;
+}
+
+.fa-5x {
+  margin-bottom: 10px;
+}
+
+.fa-github:hover {
+  color: #9cdaf1;
+}
+
+.fa-linkedin:hover {
+  color: #0e76a8;
+}
+
+.fa-twitter:hover {
+  color: #00acee;
+}
+
+.fa-medium-m:hover {
+  color: rgb(106, 105, 105);
+}
+
+.fa-envelope-square:hover {
+  color: #d44638;
+}
+
+.fa-codepen:hover {
+  color: #ae63e4;
+}

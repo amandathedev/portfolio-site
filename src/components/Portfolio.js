@@ -3,7 +3,7 @@ import "../styles/portfolio.css";
 
 const Portfolio = () => {
   return (
-    <div className="portfolio-div">
+    <div id="portfolio" className="portfolio-div">
       <h2>Portfolio</h2>
       <div className="underline"></div>
 

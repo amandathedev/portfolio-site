@@ -21,16 +21,16 @@ const Navbar = () => {
             <a class="nav-item nav-link active" href="#">
               HOME <span class="sr-only">(current)</span>
             </a>
-            <a class="nav-item nav-link" href="#">
+            <a class="nav-item nav-link" href="#about">
               ABOUT
             </a>
-            <a class="nav-item nav-link" href="#">
+            <a class="nav-item nav-link" href="#portfolio">
               PORTFOLIO
             </a>
-            <a class="nav-item nav-link" href="#" tabindex="-1">
+            <a class="nav-item nav-link" href="#blog" tabindex="-1">
               BLOG
             </a>
-            <a class="nav-item nav-link" href="#" tabindex="-1">
+            <a class="nav-item nav-link" href="#contact" tabindex="-1">
               CONTACT
             </a>
           </div>

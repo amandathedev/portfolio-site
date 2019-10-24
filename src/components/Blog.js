@@ -3,7 +3,7 @@ import "../styles/blog.css";
 
 const Blog = () => {
   return (
-    <div className="blog-div">
+    <div id="blog" className="blog-div">
       <h2>Blog</h2>
       <div className="underline"></div>
       <div class="card-group blog-card-group">
