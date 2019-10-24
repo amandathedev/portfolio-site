@@ -23,19 +23,90 @@ body {
 
 h1 {
   text-transform: uppercase;
-  /* TODO */
-  font-size: 7.5vw;
+  text-align: center;
   line-height: 0.75;
   margin: 10px 0;
-  margin-top: 0.2em;
   letter-spacing: 4px;
-  font-weight: 100;
   text-shadow: 2px 2px rgba(245, 10, 10, 0.384);
 }
 
+h4 {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  text-shadow: 1px 1px rgba(245, 10, 10, 0.384);
+}
+
+@media only screen and (max-width: 420px) {
+  h1 {
+    /* background: rgb(250, 125, 125); */
+    font-size: 18vw;
+    margin-top: 60%;
+    font-weight: 500;
+    letter-spacing: 0ch;
+  }
+
+  h4 {
+    font-size: 2.1em;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  h1 {
+    /* background: lightgreen; */
+    font-size: 12vw;
+    margin-top: 10%;
+    font-weight: 500;
+  }
+
+  h4 {
+    font-size: 2.3em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  h1 {
+    /* background: lightblue; */
+    font-size: 8em;
+    margin-top: 10%;
+    font-weight: 500;
+    letter-spacing: 0ch;
+  }
+
+  h4 {
+    font-size: 2.7em;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  h1 {
+    /* background: orange; */
+    font-size: 9em;
+    font-weight: 500;
+    margin-top: 20%;
+  }
+
+  h4 {
+    font-size: 3.5em;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  h1 {
+    /* background: pink; */
+    font-size: 10em;
+    margin-top: 0.3em;
+    font-weight: 400;
+  }
+
+  h4 {
+    font-size: 3em;
+    font-weight: 400;
+  }
+}
+
 .main-box {
-  background-color: rgba(255, 38, 0, 0.899);
-  background-image: url("../smoke.png");
+  /* background-color: rgba(255, 38, 0, 0.899); */
+  background-image: url("../smoke3.png");
   background-size: cover;
   opacity: 5%;
   height: 100vh;
@@ -44,12 +115,4 @@ h1 {
 
 .title {
   width: 100%;
-}
-
-h4 {
-  font-family: "Raleway", sans-serif;
-  text-align: center;
-  font-weight: 300;
-  font-size: 2em;
-  text-shadow: 1px 1px rgba(245, 10, 10, 0.384);
 }
