@@ -63,7 +63,7 @@ const Portfolio = () => {
           </a>
         </div>
       </div>
-      <h1 className="example">Example</h1>
+      {/* <h1 className="example">Example</h1> */}
       <div class="card-group portfolio-card-group">
         <div class="card portfolio-card">
           <a href="">
