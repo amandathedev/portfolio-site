@@ -63,9 +63,9 @@ const Portfolio = () => {
           </a>
         </div>
       </div>
-
+      <h1 className="example">Example</h1>
       <div class="card-group portfolio-card-group">
-        <div class="card">
+        <div class="card portfolio-card">
           <a href="">
             <img
               src="https://i.imgur.com/ifUChnn.png"
@@ -84,11 +84,14 @@ const Portfolio = () => {
             <p class="card-text">
               <a href="www.speakto.io">Live Demo</a>
               <span> | </span>
-              <a> GitHub</a>
+              <a href="https://github.com/amandathedev/speakto-frontend">
+                {" "}
+                GitHub
+              </a>
             </p>
           </div>
         </div>
-        <div class="card">
+        <div class="card portfolio-card">
           <a href="">
             <img
               src="https://i.imgur.com/JAjrDdU.png"
@@ -105,14 +108,14 @@ const Portfolio = () => {
               shopping cart function, and view their order history.
             </p>
             <p class="card-text">
-              <a>Live Demo</a>
+              <a href="https://grubcrud.herokuapp.com/">Live Demo</a>
               <span> | </span>
-              <a> GitHub</a>
+              <a href="https://github.com/amandathedev/grubcrud"> GitHub</a>
             </p>
           </div>
         </div>
         <div class="card-group portfolio-card-group">
-          <div class="card">
+          <div class="card portfolio-card">
             <a href="">
               <img
                 src="https://i.imgur.com/F75dN6c.png"
@@ -125,13 +128,16 @@ const Portfolio = () => {
               <h6>Built with: Javascript, jQuery</h6>
               <p class="card-text">DO THIS DO THIS DO THIS</p>
               <p class="card-text">
-                <a>Live Demo</a>
+                <a>Demo</a>
                 <span> | </span>
-                <a> GitHub</a>
+                <a href="https://github.com/amandathedev/drift-calendar">
+                  {" "}
+                  GitHub
+                </a>
               </p>
             </div>
           </div>
-          <div class="card">
+          <div class="card portfolio-card">
             <a href="">
               <img
                 src="https://i.imgur.com/Jrg8YVm.png"
@@ -144,9 +150,12 @@ const Portfolio = () => {
               <h6>Built with: HTML, pure CSS</h6>
               <p class="card-text">DO THIS DO THIS DO THIS</p>
               <p class="card-text">
-                <a>Live Demo</a>
+                <a>Demo</a>
                 <span> | </span>
-                <a> GitHub</a>
+                <a href="https://github.com/amandathedev/calligraphy-portfolio">
+                  {" "}
+                  GitHub
+                </a>
               </p>
             </div>
           </div>

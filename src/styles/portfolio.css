@@ -4,32 +4,105 @@
   margin-top: 5%;
 }
 
+.big-screen {
+  /* margin-left: 5%; */
+}
+
 .underline {
   height: 3px;
   width: 9%;
   background: linear-gradient(135deg, #ff0000 0%, #e6b30d 100%);
 }
 
-.big-screen {
-  background: url("../screen.jpg");
-  width: 1200px;
-  height: 872px;
-  margin-top: 4em;
-  margin-left: 4em;
-  background-repeat: no-repeat;
-  background-size: fit;
-}
-
-.carousel-item {
-  width: 76.5%;
-  margin-left: 3.5%;
-  margin-top: 3%;
-}
-
-.carousel-icon {
-  color: black;
-}
-
 .portfolio-card-img {
-  height: 350px;
+  height: 300px;
+}
+
+.portfolio-card {
+  padding-bottom: 2em;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .example {
+    background: red;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .example {
+    background: green;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 970px) {
+  .example {
+    background: blue;
+  }
+
+  .big-screen {
+    background: url("../iphone2.jpg");
+    background-repeat: no-repeat;
+    background-size: fit;
+    width: 100vw;
+    height: 100vw;
+    margin-top: 4em;
+    padding-left: 0;
+  }
+
+  .portfolio-div {
+    margin-bottom: 5em;
+  }
+
+  .carousel {
+    display: none;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 750px) and (max-width: 1199px) {
+  .example {
+    background: orange;
+  }
+
+  .big-screen {
+    background: url("../ipad2.png");
+    width: 100vw;
+    height: 100vw;
+    margin-top: 4em;
+    padding-left: 0;
+    /* margin-left: -2em; */
+    margin-bottom: 0;
+    background-repeat: no-repeat;
+    background-size: fit;
+  }
+
+  .carousel {
+    display: none;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .example {
+    background: pink;
+  }
+  .big-screen {
+    background: url("../screen.jpg");
+    width: 1200px;
+    height: 872px;
+    margin-top: 4em;
+    margin-left: 4em;
+    background-repeat: no-repeat;
+    background-size: fit;
+  }
+
+  .carousel-item {
+    display: block;
+    width: 76.5%;
+    margin-left: 3.5%;
+    margin-top: 3%;
+  }
 }
