@@ -236,10 +236,13 @@ const Portfolio = () => {
             <div class="card-body">
               <h5 class="card-title">Drift Calendar</h5>
               <h6>Built with: Javascript, jQuery</h6>
-              <p class="card-text">DO THIS DO THIS DO THIS</p>
               <p class="card-text">
-                <a>Demo</a>
-                <span> | </span>
+                A family or team calendar app for joint or shared schedules.
+                Allows users to view calendar events sorted by team member.
+              </p>
+              <p class="card-text">
+                {/* <a>Demo</a>
+                <span> | </span> */}
                 <a href="https://github.com/amandathedev/drift-calendar">
                   {" "}
                   GitHub
@@ -258,10 +261,13 @@ const Portfolio = () => {
             <div class="card-body">
               <h5 class="card-title">Calligraphy Portfolio</h5>
               <h6>Built with: HTML, pure CSS</h6>
-              <p class="card-text">DO THIS DO THIS DO THIS</p>
               <p class="card-text">
-                <a>Demo</a>
-                <span> | </span>
+                A simple photo-based product landing page, made using pure CSS
+                with CSS Grid.
+              </p>
+              <p class="card-text">
+                {/* <a>Demo</a>
+                <span> | </span> */}
                 <a href="https://github.com/amandathedev/calligraphy-portfolio">
                   {" "}
                   GitHub
