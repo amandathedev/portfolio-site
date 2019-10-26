@@ -6,42 +6,152 @@ const Portfolio = () => {
     <div id="portfolio" className="portfolio-div">
       <h2>Portfolio</h2>
       <div className="underline"></div>
-
       <div className="big-screen">
+        {/* computer carousel */}
         <div
           id="carouselExampleFade"
-          class="carousel slide carousel-fade"
+          class="carousel computer-carousel slide carousel-fade"
           data-ride="carousel"
         >
           <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item active computer-carousel-item">
               <img
                 src="https://i.imgur.com/ifUChnn.png"
                 class="d-block w-100"
                 alt="..."
               />
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item computer-carousel-item">
               <img
                 src="https://i.imgur.com/JAjrDdU.png"
                 class="d-block w-100"
                 alt="..."
               />
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item computer-carousel-item">
               <img
                 src="https://i.imgur.com/Jrg8YVm.png"
                 class="d-block w-100"
                 alt="..."
               />
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item computer-carousel-item">
               <img
                 src="https://i.imgur.com/F75dN6c.png"
                 class="d-block w-100"
                 alt="..."
               />
             </div>
+          </div>
+          <a
+            class="carousel-control-prev carousel-icon"
+            href="#carouselExampleFade"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next carousel-icon"
+            href="#carouselExampleFade"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        {/* ipad carousel */}
+        <div
+          id="carouselExampleFade"
+          class="carousel ipad-carousel slide carousel-fade"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active ipad-carousel-item">
+              <img
+                src="https://i.imgur.com/MuLdH45.png"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            {/* <div class="carousel-item ipad-carousel-item">
+              <img
+                src="https://i.imgur.com/gXFwkz2.png"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div> */}
+            {/* <div class="carousel-item ipad-carousel-item">
+              <img
+                src="https://i.imgur.com/Jrg8YVm.png"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item ipad-carousel-item">
+              <img
+                src="https://i.imgur.com/F75dN6c.png"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div> */}
+          </div>
+          {/* <a
+            class="carousel-control-prev carousel-icon"
+            href="#carouselExampleFade"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next carousel-icon"
+            href="#carouselExampleFade"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a> */}
+        </div>
+        {/* iphone carousel */}
+        <div
+          id="carouselExampleFade"
+          class="carousel iphone-carousel slide carousel-fade"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active iphone-carousel-item">
+              <img
+                src="https://i.imgur.com/Wh1XsUT.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            {/* <div class="carousel-item iphone-carousel-item">
+              <img
+                src="https://i.imgur.com/gXFwkz2.png"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div> */}
+            {/* <div class="carousel-item iphone-carousel-item">
+              <img
+                src="https://i.imgur.com/Jrg8YVm.png"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item iphone-carousel-item">
+              <img
+                src="https://i.imgur.com/F75dN6c.png"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div> */}
           </div>
           <a
             class="carousel-control-prev carousel-icon"

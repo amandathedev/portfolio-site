@@ -37,13 +37,13 @@
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 970px) {
+/* @media only screen and (max-width: 750px) {
   .example {
     background: blue;
   }
 
   .big-screen {
-    background: url("../iphone2.jpg");
+    background: url("https://i.imgur.com/F8Ebteb.png");
     background-repeat: no-repeat;
     background-size: fit;
     width: 100vw;
@@ -56,30 +56,56 @@
     margin-bottom: 5em;
   }
 
-  .carousel {
+  .computer-carousel {
     display: none;
   }
-}
+
+  .ipad-carousel {
+    display: none;
+  }
+
+  .iphone-carousel-item {
+    display: block;
+    height: 80%;
+    width: 25%;
+    margin-left: 1.9%;
+    margin-top: 3.7%;
+  }
+} */
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 750px) and (max-width: 1199px) {
+@media only screen and (min-width: 150px) and (max-width: 1199px) {
   .example {
     background: orange;
   }
 
   .big-screen {
-    background: url("../ipad2.png");
-    width: 100vw;
-    height: 100vw;
+    background: url("../ipad3.png");
+    /* width: 100vw;
+    height: 100vw; */
+    width: 1200px;
+    height: 872px;
     margin-top: 4em;
-    padding-left: 0;
+    /* padding-left: 0; */
     /* margin-left: -2em; */
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
     background-repeat: no-repeat;
     background-size: fit;
   }
 
-  .carousel {
+  .computer-carousel {
+    display: none;
+  }
+
+  .ipad-carousel-item {
+    display: block;
+    height: 80%;
+    width: 25%;
+    margin-left: 1.9%;
+    margin-top: 3.7%;
+  }
+
+  .iphone-carousel {
     display: none;
   }
 }
@@ -99,7 +125,15 @@
     background-size: fit;
   }
 
-  .carousel-item {
+  .ipad-carousel {
+    display: none;
+  }
+
+  .iphone-carousel {
+    display: none;
+  }
+
+  .computer-carousel-item {
     display: block;
     width: 76.5%;
     margin-left: 3.5%;
