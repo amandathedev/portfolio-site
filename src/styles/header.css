@@ -95,7 +95,7 @@ h4 {
     /* background: pink; */
     font-size: 10em;
     margin-top: 0.3em;
-    font-weight: 400;
+    font-weight: 300;
   }
 
   h4 {
@@ -109,7 +109,7 @@ h4 {
   background-image: url("../smoke3.png");
   background-size: cover;
   opacity: 5%;
-  height: 100vh;
+  height: 50vh;
   width: 100vw;
 }
 
