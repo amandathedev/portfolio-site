@@ -108,7 +108,7 @@ h4 {
   /* background-color: rgba(255, 38, 0, 0.899); */
   background-image: url("../smoke3.png");
   background-size: cover;
-  opacity: 5%;
+  /* opacity: 5%; */
   height: 50vh;
   width: 100vw;
 }
