@@ -192,7 +192,7 @@ const Portfolio = () => {
               to coordinate and arrange online lessons.
             </p>
             <p class="card-text">
-              <a href="www.speakto.io">Live Demo</a>
+              <a href="http://www.speakto.io">Live Demo</a>
               <span> | </span>
               <a href="https://github.com/amandathedev/speakto-frontend">
                 {" "}
