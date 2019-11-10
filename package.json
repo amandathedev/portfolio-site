@@ -4,11 +4,13 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.5.1",
+    "flexbox-react": "^4.4.0",
     "node": "^12.12.0",
-    "npm": "^6.12.0",
+    "npm": "^6.13.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
-    "react-scripts": "3.2.0"
+    "react-scripts": "3.2.0",
+    "simple-flexbox": "^2.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
