@@ -64,11 +64,11 @@ const Portfolio = () => {
         </div>
         {/* ipad carousel */}
         <div
-          id="carouselExampleFade"
-          class="carousel ipad-carousel slide carousel-fade"
+          id="carouselFade"
+          className="carousel big-carousel ipad-carousel slide carousel-fade"
           data-ride="carousel"
         >
-          <div class="carousel-inner">
+          <div className="carousel-inner">
             <div class="carousel-item active ipad-carousel-item">
               <img
                 src="https://i.imgur.com/MuLdH45.png"
@@ -119,8 +119,8 @@ const Portfolio = () => {
         </div>
         {/* iphone carousel */}
         <div
-          id="carouselExampleFade"
-          class="carousel iphone-carousel slide carousel-fade"
+          id="carouselFade"
+          className="carousel iphone-carousel slide carousel-fade"
           data-ride="carousel"
         >
           <div class="carousel-inner">
