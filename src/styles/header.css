@@ -27,20 +27,23 @@ h1 {
   line-height: 0.75;
   margin: 10px 0;
   letter-spacing: 4px;
-  text-shadow: 2px 2px rgba(245, 10, 10, 0.384);
+  text-shadow: 5px 5px #de539b;
+  color: white;
+  line-height: 0.8em;
 }
 
 h4 {
   font-family: "Raleway", sans-serif;
   text-align: center;
-  text-shadow: 1px 1px rgba(245, 10, 10, 0.384);
+  color: white;
+  text-shadow: 2px 2px #fb8593;
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (min-width: 200px) {
   h1 {
     /* background: rgb(250, 125, 125); */
     font-size: 18vw;
-    margin-top: 60%;
+    margin-top: 10%;
     font-weight: 500;
     letter-spacing: 0ch;
   }
@@ -53,7 +56,7 @@ h4 {
 @media only screen and (min-width: 600px) {
   h1 {
     /* background: lightgreen; */
-    font-size: 12vw;
+    font-size: 15vw;
     margin-top: 10%;
     font-weight: 500;
   }
@@ -82,7 +85,7 @@ h4 {
     /* background: orange; */
     font-size: 9em;
     font-weight: 500;
-    margin-top: 20%;
+    margin-top: 5%;
   }
 
   h4 {
@@ -106,10 +109,12 @@ h4 {
 
 .main-box {
   /* background-color: rgba(255, 38, 0, 0.899); */
-  background-image: url("../smoke3.png");
+  /* background-image: url("../smoke3.png"); */
+  background-image: url("https://images.unsplash.com/photo-1519751138087-5bf79df62d5b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
+  background-image: url("https://images.unsplash.com/photo-1415025148099-17fe74102b28?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2040&q=80");
   background-size: cover;
   /* opacity: 5%; */
-  height: 50vh;
+  height: 70vh;
   width: 100vw;
 }
 

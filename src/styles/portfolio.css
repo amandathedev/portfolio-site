@@ -11,12 +11,8 @@
 .underline {
   height: 3px;
   width: 9%;
-  background: linear-gradient(135deg, #ff0000 0%, #e6b30d 100%);
+  background: linear-gradient(135deg, #0b54a1 0%, #efa7af 100%);
   margin-bottom: 4em;
-}
-
-.portfolio-card-img {
-  /* height: 300px; */
 }
 
 .portfolio-card {
@@ -24,18 +20,18 @@
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .example {
     background: red;
   }
-}
+} */
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .example {
     background: green;
   }
-}
+} */
 
 /* Medium devices (landscape tablets, 768px and up) */
 /* @media only screen and (max-width: 750px) {
