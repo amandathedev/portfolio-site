@@ -3,8 +3,7 @@
   border-radius: 50%;
   margin-top: 1em;
   margin-left: 30%;
-  box-shadow: 2px 2px 2px #0b54a1;
-  /* float: right; */
+  box-shadow: 4px 4px 4px #0b54a1;
 }
 
 .about-div {
@@ -29,7 +28,6 @@
 
 .btn-outline-danger {
   border-radius: 0;
-  /* float: left; */
   margin-left: 35%;
   width: 30%;
   margin-top: 2em;
