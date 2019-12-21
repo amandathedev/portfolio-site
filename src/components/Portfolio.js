@@ -238,24 +238,20 @@ const Portfolio = () => {
             </a>
           </div>
         </div>
-        {/* 
         <div class="portfolio-card card5">
           <div class="portfolio-card__overlay">
-            <h2 class="portfolio-card__title">Developing Hexxis</h2>
-            <a class="portfolio-card__link" href="#">
-              View Case card
+            <h2 class="portfolio-card__title">Kirsten Ihns Artist Portfolio</h2>
+            <a class="portfolio-card__link" href="https://www.kirsten.website">
+              Publication
+            </a>
+            <a
+              class="portfolio-card__link"
+              href="https://github.com/amandathedev/kirsten-ihns-artist-portfolio"
+            >
+              GitHub
             </a>
           </div>
         </div>
-
-        <div class="portfolio-card card6">
-          <div class="portfolio-card__overlay">
-            <h2 class="portfolio-card__title">Developing Hexxis</h2>
-            <a class="portfolio-card__link" href="#">
-              View Case card
-            </a>
-          </div>
-        </div> */}
       </div>
       {/* End portfolio cards */}
     </div>
