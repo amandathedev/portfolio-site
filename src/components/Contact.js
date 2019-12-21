@@ -39,10 +39,10 @@ const Contact = () => {
           <h6 class="font-weight-bold">Email</h6>
         </div>
         <div class="col-4 col-md-4 col-lg-2 text-center">
-          <a href="https://codepen.io/amandathedev">
-            <i class="fab fa-codepen fa-4x"></i>
+          <a href="https://chrome.google.com/webstore/search/amanda%20treutler">
+            <i class="fab fa-chrome fa-4x"></i>
           </a>
-          <h6 class="font-weight-bold">CodePen</h6>
+          <h6 class="font-weight-bold">Chrome</h6>
         </div>
       </div>
     </div>
