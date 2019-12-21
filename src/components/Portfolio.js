@@ -240,7 +240,7 @@ const Portfolio = () => {
         </div>
         <div class="portfolio-card card5">
           <div class="portfolio-card__overlay">
-            <h2 class="portfolio-card__title">Kirsten Ihns Artist Portfolio</h2>
+            <h2 class="portfolio-card__title">Kirsten Ihns Portfolio</h2>
             <a class="portfolio-card__link" href="https://www.kirsten.website">
               Publication
             </a>
@@ -252,8 +252,19 @@ const Portfolio = () => {
             </a>
           </div>
         </div>
+        <div class="portfolio-card card6">
+          <div class="portfolio-card__overlay">
+            <h2 class="portfolio-card__title">Calligraphy Portfolio</h2>
+            <a
+              class="portfolio-card__link"
+              href="https://github.com/amandathedev/calligraphy-portfolio"
+            >
+              GitHub
+            </a>
+          </div>
+        </div>
+        {/* End portfolio cards */}
       </div>
-      {/* End portfolio cards */}
     </div>
   );
 };
