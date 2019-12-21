@@ -173,110 +173,91 @@ const Portfolio = () => {
           </a>
         </div>
       </div>
-      {/* <h1 className="example">Example</h1> */}
-      <div class="card-group portfolio-card-group">
-        <div class="card portfolio-card">
-          <a href="">
-            <img
-              src="https://i.imgur.com/ifUChnn.png"
-              class="card-img-top portfolio-card-img"
-              alt="..."
-            />
-          </a>
-          <div class="card-body">
-            <h5 class="card-title">SpeakTo</h5>
-            <h6>Built with: React, Ruby on Rails, Bootstrap</h6>
-            <p class="card-text">
-              A scheduling platform for students to browse teachers and their
-              availabilities and to leave ratings. Allows teachers and students
-              to coordinate and arrange online lessons.
-            </p>
-            <p class="card-text">
-              <a href="http://www.speakto.io">Live Demo</a>
-              <span> | </span>
-              <a href="https://github.com/amandathedev/speakto-frontend">
-                {" "}
-                GitHub
-              </a>
-            </p>
-          </div>
-        </div>
-        <div class="card portfolio-card">
-          <a href="">
-            <img
-              src="https://i.imgur.com/JAjrDdU.png"
-              class="card-img-top portfolio-card-img"
-              alt="..."
-            />
-          </a>
-          <div class="card-body">
-            <h5 class="card-title">GrubCRUD</h5>
-            <h6>Built with: Ruby on Rails, SCSS, erb</h6>
-            <p class="card-text">
-              App for users to easily browse local restaurants or types of
-              cuisines. Users can view restaurant menus, place food orders via a
-              shopping cart function, and view their order history.
-            </p>
-            <p class="card-text">
-              <a href="https://grubcrud.herokuapp.com/">Live Demo</a>
-              <span> | </span>
-              <a href="https://github.com/amandathedev/grubcrud"> GitHub</a>
-            </p>
-          </div>
-        </div>
-        <div class="card-group portfolio-card-group">
-          <div class="card portfolio-card">
-            <a href="">
-              <img
-                src="https://i.imgur.com/F75dN6c.png"
-                class="card-img-top portfolio-card-img"
-                alt="..."
-              />
+
+      {/* Portfolio cards */}
+      <div class="portfolio-gallery">
+        <div class="portfolio-card card1">
+          <div class="portfolio-card__overlay">
+            <h2 class="portfolio-card__title">SpeakTo</h2>
+            <a class="portfolio-card__link" href="http://www.speakto.io">
+              Live Demo
             </a>
-            <div class="card-body">
-              <h5 class="card-title">Drift Calendar</h5>
-              <h6>Built with: Javascript, jQuery</h6>
-              <p class="card-text">
-                A family or team calendar app for joint or shared schedules.
-                Allows users to view calendar events sorted by team member.
-              </p>
-              <p class="card-text">
-                {/* <a>Demo</a>
-                <span> | </span> */}
-                <a href="https://github.com/amandathedev/drift-calendar">
-                  {" "}
-                  GitHub
-                </a>
-              </p>
-            </div>
-          </div>
-          <div class="card portfolio-card">
-            <a href="">
-              <img
-                src="https://i.imgur.com/Jrg8YVm.png"
-                class="card-img-top portfolio-card-img"
-                alt="..."
-              />
+            <a
+              class="portfolio-card__link"
+              href="https://github.com/amandathedev/speakto-frontend"
+            >
+              GitHub
             </a>
-            <div class="card-body">
-              <h5 class="card-title">Calligraphy Portfolio</h5>
-              <h6>Built with: HTML, pure CSS</h6>
-              <p class="card-text">
-                A simple photo-based product landing page, made using pure CSS
-                with CSS Grid.
-              </p>
-              <p class="card-text">
-                {/* <a>Demo</a>
-                <span> | </span> */}
-                <a href="https://github.com/amandathedev/calligraphy-portfolio">
-                  {" "}
-                  GitHub
-                </a>
-              </p>
-            </div>
           </div>
         </div>
+
+        <div class="portfolio-card card2">
+          <div class="portfolio-card__overlay">
+            <h2 class="portfolio-card__title">UnitSwitch</h2>
+            <a
+              class="portfolio-card__link"
+              href="https://chrome.google.com/webstore/detail/unitswitch/nbpfgdhlmmlpkdeaegalkhbkceicckpp"
+            >
+              Publication
+            </a>
+            <a
+              class="portfolio-card__link"
+              href="https://github.com/amandathedev/unit-switch"
+            >
+              GitHub
+            </a>
+          </div>
+        </div>
+
+        <div class="portfolio-card card3">
+          <div class="portfolio-card__overlay">
+            <h2 class="portfolio-card__title">GrubCrud</h2>
+            <a
+              class="portfolio-card__link"
+              href="https://gentle-reef-09074.herokuapp.com/"
+            >
+              Live Demo
+            </a>
+            <a
+              class="portfolio-card__link"
+              href="https://github.com/amandathedev/grubcrud"
+            >
+              GitHub
+            </a>
+          </div>
+        </div>
+
+        <div class="portfolio-card card4">
+          <div class="portfolio-card__overlay">
+            <h2 class="portfolio-card__title">Drift Calendar</h2>
+            <a
+              class="portfolio-card__link"
+              href="https://github.com/amandathedev/drift-calendar"
+            >
+              GitHub
+            </a>
+          </div>
+        </div>
+        {/* 
+        <div class="portfolio-card card5">
+          <div class="portfolio-card__overlay">
+            <h2 class="portfolio-card__title">Developing Hexxis</h2>
+            <a class="portfolio-card__link" href="#">
+              View Case card
+            </a>
+          </div>
+        </div>
+
+        <div class="portfolio-card card6">
+          <div class="portfolio-card__overlay">
+            <h2 class="portfolio-card__title">Developing Hexxis</h2>
+            <a class="portfolio-card__link" href="#">
+              View Case card
+            </a>
+          </div>
+        </div> */}
       </div>
+      {/* End portfolio cards */}
     </div>
   );
 };

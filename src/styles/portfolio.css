@@ -123,3 +123,143 @@
     margin-top: 3%;
   }
 }
+
+/* Portfolio cards */
+
+.portfolio-gallery {
+  margin-top: 50px;
+  width: 90%;
+  margin: 50px auto;
+  max-width: 1100px;
+  box-sizing: border-box;
+}
+
+.portfolio-card {
+  position: relative;
+  display: block;
+  width: 90%;
+  height: 250px;
+  margin: 0 auto 2rem;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0px 25px 50px rgba(0, 0, 0, .5);
+  overflow: hidden;
+  transition: all .4s ease;
+}
+
+@media screen and (min-width: 37.5em) {
+  .portfolio-card {
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 45em) {
+  .portfolio-card {
+    display: inline-block;
+    width: 45%;
+    margin-left: 25px;
+  }
+}
+
+.portfolio-card__overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 10;
+}
+
+.portfolio-card__overlay:after {
+  content: '';
+  width: 100%;
+  border-radius: 10px;
+  height: 100%;
+  background-color: #202020;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  z-index: -10;
+  left: 0;
+  transition: all .3s ease;
+}
+
+.portfolio-card__title {
+  position: relative;
+  top: -200px;
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+  font-size: 2.25rem;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  letter-spacing: 5px;
+  transition: all .3s cubic-bezier(.3, 0, 0, 1.3);
+}
+
+.portfolio-card__link {
+  position: relative;
+  display: block;
+  width: 50%;
+  top: 200px;
+  padding: 8px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  color: white;
+  letter-spacing: 3px;
+  text-align: center;
+  border: 1px solid white;
+  /* border-radius: 7px; */
+  font-size: 1.25em;
+  transition: all .3s cubic-bezier(.3, 0, 0, 1.3);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.portfolio-card__link:hover {
+  text-decoration: none;
+  background-color: white;
+  color: #202020;
+}
+
+.portfolio-card:hover .portfolio-card__title {
+  top: 0;
+}
+
+.portfolio-card:hover .portfolio-card__link {
+  top: 0;
+}
+
+.portfolio-card:hover .portfolio-card__overlay:after {
+  opacity: 0.75;
+}
+
+
+.card1 {
+  background-image: url('https://i.imgur.com/ifUChnn.png');
+}
+
+.card2 {
+  background-image: url('https://lh3.googleusercontent.com/xn7stIw73j8d1Qt6fvyx_AtWzmNBnoMv_MyXuSXr_PG4uXbVmQgOYFOBw8-85YDTyK5df0nl=w640-h400-e365');
+}
+
+.card3 {
+  background-image: url('https://i.imgur.com/JAjrDdU.png');
+}
+
+.card4 {
+  background-image: url('https://i.imgur.com/F75dN6c.png');
+}
+
+.card5 {
+  background-image: url('http://publicdomainarchive.com/wp-content/uploads/2014/06/public-domain-images-free-stock-photos-high-quality-resolution-downloads-unsplash0067-1000x666.jpg');
+}
+
+.card6 {
+  background-image: url('http://www.bedlammag.com/wp-content/uploads/2014/04/unsplash-love-yourself-article-e1397699812178.jpg');
+
+}
+
+
+/* End portfolio cards */
