@@ -8,9 +8,101 @@ const Blog = () => {
       <div className="underline"></div>
       <div class="card-group blog-card-group">
         <div class="card">
-          <a href="https://medium.com/swlh/what-i-wish-someone-had-told-me-before-starting-a-coding-boot-camp-ccbdfe9ddf60">
+          <a href="https://levelup.gitconnected.com/how-to-solve-an-anagram-algorithm-using-a-frequency-counter-5bb1f0b817ef?source=friends_link&sk=ba35bb0ca601145b6f7e7dc5803eaed3">
             <img
-              src="https://miro.medium.com/max/3762/1*4ktzHABKbH_iHtcurespRQ.jpeg"
+              src="https://miro.medium.com/max/8576/1*t-T2d675Vgk1yWKjmgi7mw.jpeg"
+              class="card-img-top blog-card-img"
+              alt="..."
+            />
+          </a>
+          <div class="card-body">
+            <h5 class="card-title blog-card-title">
+              How to Solve an Anagram Algorithm Using a Frequency Counter
+            </h5>
+            <p class="card-text">
+              If you’re learning how to solve algorithms, maybe in preparation
+              for a technical interview, one of the first strategies you might
+              learn to use is a frequency counter.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">December 20, 2019</small>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="https://levelup.gitconnected.com/css-specificity-made-simple-772f1d31f094?source=friends_link&sk=bac87b411006b8c9f8782cac24bff1e3">
+            <img
+              src="https://miro.medium.com/max/3306/1*My76DdZgPsE4kwm-xz0_dQ.jpeg"
+              class="card-img-top blog-card-img"
+              alt="..."
+            />
+          </a>
+          <div class="card-body">
+            <h5 class="card-title blog-card-title">
+              CSS Specificity Made Simple
+            </h5>
+            <p class="card-text blog-card-text">
+              If you’ve ever tried to apply a new CSS style to an element only
+              to find that a style applied to a parent element just won’t give
+              up, you may have encountered an issue with specificity.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">December 14, 2019</small>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="https://levelup.gitconnected.com/the-basics-of-web-design-accessibility-af8b642124c4?source=friends_link&sk=0d0cb4493dbcaf433912657a8597605f">
+            <img
+              src="https://miro.medium.com/max/8000/1*3WCYpTHTTlfXaDB7yErlow.jpeg"
+              class="card-img-top blog-card-img"
+              alt="..."
+            />
+          </a>
+          <div class="card-body">
+            <h5 class="card-title blog-card-title">
+              The Basics of Web Design Accessibility
+            </h5>
+            <p class="card-text blog-card-text">
+              When you’re building a website, you might be focused on some of
+              the exciting or challenging — the function and design of the site.
+              An important aspect to keep in mind is the accessibility
+              features...
+            </p>
+            <p class="card-text">
+              <small class="text-muted">December 7, 2019</small>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card-group">
+        <div class="card">
+          <a href="https://levelup.gitconnected.com/building-a-chrome-extension-in-react-in-10-minutes-737023fa4918?source=friends_link&sk=dabe44713a926fabd6f4181e028cb146">
+            <img
+              src="https://miro.medium.com/max/8576/1*0H3ygbXmDR0X0R-7agiZNQ.jpeg"
+              class="card-img-top blog-card-img"
+              alt="..."
+            />
+          </a>
+          <div class="card-body">
+            <h5 class="card-title blog-card-title">
+              Building a Chrome Extension in React in 10 Minutes
+            </h5>
+            <p class="card-text blog-card-text">
+              Creating a Google Chrome browser extension can be a fun and unique
+              project to add to your developer portfolio. It allows you to
+              experiment with a new medium and can add some diversity to your
+              project history.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">November 23, 2019</small>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="https://medium.com/swlh/what-i-wish-someone-had-told-me-before-starting-a-coding-boot-camp-ccbdfe9ddf60?source=friends_link&sk=4f4d4c6a6128a799e39d7f42b8d15aa3">
+            <img
+              src="https://miro.medium.com/max/4180/1*4ktzHABKbH_iHtcurespRQ.jpeg"
               class="card-img-top blog-card-img"
               alt="..."
             />
@@ -19,101 +111,14 @@ const Blog = () => {
             <h5 class="card-title blog-card-title">
               What I wish someone had told me before starting a coding boot camp
             </h5>
-            <p class="card-text">
-              I graduated from the full-time software engineering boot camp at
-              Flatiron School two weeks ago. It was an immersive, in-person
-              program that I had no choice but to...
+            <p class="card-text blog-card-text">
+              I know this seems obvious. I enrolled in an immersive boot camp,
+              after all. I was prepared to spend all day, every day at school. I
+              was not prepared to come early, leave late, study during my
+              commute...
             </p>
             <p class="card-text">
               <small class="text-muted">October 21, 2019</small>
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <a href="https://medium.com/@amandathedev/connecting-your-heroku-project-to-your-custom-google-domain-5fe5d1e6ab89">
-            <img
-              src="https://images.unsplash.com/photo-1511649475669-e288648b2339?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
-              class="card-img-top blog-card-img"
-              alt="..."
-            />
-          </a>
-          <div class="card-body">
-            <h5 class="card-title blog-card-title">
-              Connecting your Heroku project to your custom Google domain
-            </h5>
-            <p class="card-text blog-card-text">
-              If you don’t want your website to be found at a Heroku URL, it’s
-              pretty easy to choose your own domain and connect it to the Heroku
-              project. Follow this simple guide...
-            </p>
-            <p class="card-text">
-              <small class="text-muted">October 19, 2019</small>
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <a href="https://medium.com/swlh/a-simple-guide-to-deploying-on-heroku-rails-api-react-js-a73ccd9cbf26">
-            <img
-              src="https://images.unsplash.com/photo-1493723843671-1d655e66ac1c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
-              class="card-img-top blog-card-img"
-              alt="..."
-            />
-          </a>
-          <div class="card-body">
-            <h5 class="card-title blog-card-title">
-              A Simple Guide to Deploying on Heroku (Rails API/React JS)
-            </h5>
-            <p class="card-text blog-card-text">
-              When I first tried to deploy my own web app on Heroku, I struggled
-              with conflicting tutorials and a process that didn’t feel
-              intuitive for a first-time user...
-            </p>
-            <p class="card-text">
-              <small class="text-muted">October 11, 2019</small>
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="card-group">
-        <div class="card">
-          <a href="https://medium.com/@amandathedev/react-lazy-a52f193c6a4d">
-            <img
-              src="https://images.unsplash.com/photo-1519834411415-51492bcd6027?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1624&q=80"
-              class="card-img-top blog-card-img"
-              alt="..."
-            />
-          </a>
-          <div class="card-body">
-            <h5 class="card-title blog-card-title">React.lazy</h5>
-            <p class="card-text blog-card-text">
-              When you build a React application, your component structure can
-              quickly become rather large and extensive. Dividing various
-              functionality into separate components and files is a good way to
-              keep things organized...
-            </p>
-            <p class="card-text">
-              <small class="text-muted">September 8, 2019</small>
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <a href="https://medium.com/@amandathedev/css-color-systems-d07e12fe2288">
-            <img
-              src="https://images.unsplash.com/photo-1464692805480-a69dfaafdb0d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
-              class="card-img-top blog-card-img"
-              alt="..."
-            />
-          </a>
-          <div class="card-body">
-            <h5 class="card-title blog-card-title">CSS Color Systems</h5>
-            <p class="card-text blog-card-text">
-              There are 140 pre-defined names that can be used across platforms
-              to display a color. These are obviously limited as they cannot be
-              customized, but it’s useful to learn some color names for simple
-              projects...
-            </p>
-            <p class="card-text">
-              <small class="text-muted">August 22, 2019</small>
             </p>
           </div>
         </div>
