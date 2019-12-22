@@ -13,8 +13,7 @@ const About = () => {
         in computer programming when I was working on my Master's thesis, which
         focused on computational Linguistics. After grad school I was traveling
         the world but always trying to learn to code in my free time. I decided
-        to follow my passion and make programming a full-time career. Scroll
-        further to check out some of the things I've built so far!
+        to follow my passion and make programming a full-time career.
       </p>
       <a
         class="btn btn-outline-danger"
@@ -73,7 +72,6 @@ const About = () => {
           <h6 class="font-weight-bold">Python</h6>
         </div>
       </div>
-      {/* <hr></hr> */}
     </div>
   );
 };
