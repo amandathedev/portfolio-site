@@ -6,8 +6,8 @@ const Portfolio = () => {
     <div id="portfolio" className="portfolio-div">
       <h2>Portfolio</h2>
       <div className="underline"></div>
-      <div className="big-screen">
-        {/* computer carousel */}
+      {/* <div className="big-screen">
+
         <div
           id="carouselExampleFade"
           class="carousel computer-carousel slide carousel-fade"
@@ -62,7 +62,7 @@ const Portfolio = () => {
             <span class="sr-only">Next</span>
           </a>
         </div>
-        {/* ipad carousel */}
+
         <div
           id="carouselFade"
           className="carousel big-carousel ipad-carousel slide carousel-fade"
@@ -76,48 +76,11 @@ const Portfolio = () => {
                 alt="..."
               />
             </div>
-            {/* <div class="carousel-item ipad-carousel-item">
-              <img
-                src="https://i.imgur.com/gXFwkz2.png"
-                class="d-block w-100"
-                alt="..."
-              />
-            </div> */}
-            {/* <div class="carousel-item ipad-carousel-item">
-              <img
-                src="https://i.imgur.com/Jrg8YVm.png"
-                class="d-block w-100"
-                alt="..."
-              />
-            </div>
-            <div class="carousel-item ipad-carousel-item">
-              <img
-                src="https://i.imgur.com/F75dN6c.png"
-                class="d-block w-100"
-                alt="..."
-              />
-            </div> */}
+
           </div>
-          {/* <a
-            class="carousel-control-prev carousel-icon"
-            href="#carouselExampleFade"
-            role="button"
-            data-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a
-            class="carousel-control-next carousel-icon"
-            href="#carouselExampleFade"
-            role="button"
-            data-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a> */}
+
         </div>
-        {/* iphone carousel */}
+
         <div
           id="carouselFade"
           className="carousel iphone-carousel slide carousel-fade"
@@ -131,27 +94,7 @@ const Portfolio = () => {
                 alt="..."
               />
             </div>
-            {/* <div class="carousel-item iphone-carousel-item">
-              <img
-                src="https://i.imgur.com/gXFwkz2.png"
-                class="d-block w-100"
-                alt="..."
-              />
-            </div> */}
-            {/* <div class="carousel-item iphone-carousel-item">
-              <img
-                src="https://i.imgur.com/Jrg8YVm.png"
-                class="d-block w-100"
-                alt="..."
-              />
-            </div>
-            <div class="carousel-item iphone-carousel-item">
-              <img
-                src="https://i.imgur.com/F75dN6c.png"
-                class="d-block w-100"
-                alt="..."
-              />
-            </div> */}
+
           </div>
           <a
             class="carousel-control-prev carousel-icon"
@@ -172,7 +115,7 @@ const Portfolio = () => {
             <span class="sr-only">Next</span>
           </a>
         </div>
-      </div>
+      </div> */}
 
       {/* Portfolio cards */}
       <div class="portfolio-gallery">
