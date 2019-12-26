@@ -1,9 +1,9 @@
 .main-photo {
-  width: 60%;
+  width: 50%;
   border-radius: 50%;
   margin-top: 1em;
-  margin-left: 20%;
-  box-shadow: 4px 4px 4px #0b54a1;
+  margin-left: 25%;
+  box-shadow: 4px 4px 4px #5290d2;
 }
 
 .about-div {
