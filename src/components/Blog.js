@@ -21,8 +21,7 @@ const Blog = () => {
             </h5>
             <p class="card-text">
               If you’re learning how to solve algorithms, maybe in preparation
-              for a technical interview, one of the first strategies you might
-              learn to use is a frequency counter.
+              for a technical interview...
             </p>
             <p class="card-text">
               <small class="text-muted">December 20, 2019</small>
@@ -43,8 +42,7 @@ const Blog = () => {
             </h5>
             <p class="card-text blog-card-text">
               If you’ve ever tried to apply a new CSS style to an element only
-              to find that a style applied to a parent element just won’t give
-              up, you may have encountered an issue with specificity.
+              to find...
             </p>
             <p class="card-text">
               <small class="text-muted">December 14, 2019</small>
@@ -65,9 +63,7 @@ const Blog = () => {
             </h5>
             <p class="card-text blog-card-text">
               When you’re building a website, you might be focused on some of
-              the exciting or challenging — the function and design of the site.
-              An important aspect to keep in mind is the accessibility
-              features...
+              the exciting...
             </p>
             <p class="card-text">
               <small class="text-muted">December 7, 2019</small>
@@ -90,9 +86,7 @@ const Blog = () => {
             </h5>
             <p class="card-text blog-card-text">
               Creating a Google Chrome browser extension can be a fun and unique
-              project to add to your developer portfolio. It allows you to
-              experiment with a new medium and can add some diversity to your
-              project history.
+              project...
             </p>
             <p class="card-text">
               <small class="text-muted">November 23, 2019</small>
@@ -113,9 +107,7 @@ const Blog = () => {
             </h5>
             <p class="card-text blog-card-text">
               I know this seems obvious. I enrolled in an immersive boot camp,
-              after all. I was prepared to spend all day, every day at school. I
-              was not prepared to come early, leave late, study during my
-              commute...
+              after all...
             </p>
             <p class="card-text">
               <small class="text-muted">October 21, 2019</small>
@@ -134,9 +126,7 @@ const Blog = () => {
             <h5 class="card-title blog-card-title">The Demise of form_for</h5>
             <p class="card-text blog-card-text">
               Any new Rails developer will come to appreciate the simplicity and
-              effectiveness of the form_for tag for creating forms in your web
-              app. As a more streamlined alternative to the capabilities offered
-              by form_tag...
+              effectiveness...
             </p>
             <p class="card-text">
               <small class="text-muted">August 1, 2019</small>
