@@ -1,15 +1,24 @@
 .main-photo {
-  width: 50%;
-  border-radius: 50%;
-  margin-top: 1em;
-  margin-left: 25%;
-  box-shadow: 4px 4px 4px #5290d2;
+  width: 20rem;
+  border-radius: 4rem;
+  margin: 0 auto;
 }
 
 .about-div {
   width: 90%;
   margin-left: 5%;
-  margin-top: 5%;
+  margin-top: 2%;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 948px) {
+  .about-content {
+    flex-direction: column;
+  }
 }
 
 .underline {
@@ -24,6 +33,12 @@
   font-size: 1.2em;
   text-align: center;
   margin-left: 5%;
+}
+
+.about-text a {
+  color: #21158f;
+  text-decoration: underline;
+  font-size: unset;
 }
 
 .btn-outline-danger {

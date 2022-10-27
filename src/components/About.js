@@ -6,18 +6,22 @@ const About = () => {
     <div id="about" className="about-div">
       <h2>About Me</h2>
       <div className="underline"></div>
-      <img className="main-photo" src="https://i.imgur.com/PJ3SD5X.jpg"></img>
-      <p className="about-text">
-        Hello! I'm Amanda Treutler. I'm a recent graduate of the immersive
-        software engineering program at Flatiron School. I developed an interest
-        in computer programming when I was working on my Master's thesis, which
-        focused on computational Linguistics. After grad school I was traveling
-        the world but always trying to learn to code in my free time. I decided
-        to follow my passion and make programming a full-time career.
-      </p>
+      <div className="about-content">
+        <img className="main-photo" src="https://i.imgur.com/zsjWzPX.jpg" alt="Amanda Treutler"></img>
+        <p className="about-text">
+          Hello! I'm Amanda Treutler. I'm a full-stack web developer with a background in marketing and
+          Linguistics. I'm passionate about creating beautiful, functional, and accessible websites. I'm 
+          a lifelong learner and I'm constantly looking for new ways to improve my skills and expand my 
+          knowledge. Get in touch if you'd like to work together on a project!
+          <br />
+          <br />
+          <p>I volunteer on the board of <a href="https://theperiodcollective.org/">The Period Collective</a>, 
+          helping to provide menstrual products to people in need in Chicago.</p>
+        </p>
+      </div>
       <a
         class="btn btn-outline-danger"
-        href="https://drive.google.com/uc?export=download&id=1X9tLL8wJjKnk6bcm8_jxiEDPZ3ifUItu"
+        href="https://drive.google.com/uc?export=download&id=1fSVoqv3Cb7Il47EhrmLX4wWYpy-tTt07"
         download
       >
         <i class="fas fa-cloud-download-alt"></i> Download My Résumé

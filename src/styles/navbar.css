@@ -1,17 +1,18 @@
 .navbar {
   /* background-color: rgba(249, 81, 20, 0.808); */
-  background-color: #f598a3;
+  background-color: #cec5ff;
   color: black;
 }
 
 a:hover {
-  color: #0b54a1;
+  color: #8800ff;
+  text-decoration: underline;
 }
 
 .nav-link {
-  color: white;
+  color: black;
   font-size: 1.3em;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 a {
