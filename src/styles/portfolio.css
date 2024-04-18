@@ -15,53 +15,6 @@
   padding-bottom: 2em;
 }
 
-/* Extra small devices (phones, 600px and down) */
-/* @media only screen and (max-width: 600px) {
-  .example {
-    background: red;
-  }
-} */
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/* @media only screen and (max-width: 600px) {
-  .example {
-    background: green;
-  }
-} */
-
-/* Medium devices (landscape tablets, 768px and up) */
-/* @media only screen and (max-width: 750px) {
-  .big-screen {
-    background: url("https://i.imgur.com/F8Ebteb.png");
-    background-repeat: no-repeat;
-    background-size: fit;
-    width: 100vw;
-    height: 100vw;
-    margin-top: 4em;
-    padding-left: 0;
-  }
-
-  .portfolio-div {
-    margin-bottom: 5em;
-  }
-
-  .computer-carousel {
-    display: none;
-  }
-
-  .ipad-carousel {
-    display: none;
-  }
-
-  .iphone-carousel-item {
-    display: block;
-    height: 80%;
-    width: 25%;
-    margin-left: 1.9%;
-    margin-top: 3.7%;
-  }
-} */
-
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 150px) and (max-width: 1199px) {
   .big-screen {
@@ -143,23 +96,15 @@
   transition: all .4s ease;
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/* @media only screen and (max-width: 900px) {
-  .portfolio-card {
-    background: green;
-  }
-} */
-
 @media screen and (min-width: 37.5em) {
   .portfolio-card {
-    height: 300px;
+    height: 65vh;
   }
 }
 
 @media screen and (min-width: 55em) {
   .portfolio-card {
     display: inline-block;
-    width: 45%;
     margin-left: 25px;
   }
 }
@@ -178,7 +123,7 @@
   border-radius: 10px;
   height: 100%;
   background-color: #202020;
-  opacity: 0;
+  opacity: 0; /* Default state with no opacity */
   position: absolute;
   top: 0;
   z-index: -10;
@@ -187,34 +132,32 @@
 }
 
 .portfolio-card__title {
-  position: relative;
-  top: -200px;
-  margin-bottom: 2rem;
-  margin-top: 2.2rem;
+  position: absolute;
+  width: 100%;
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%); /* Adjust to exact center */
   font-size: 2rem;
   font-weight: 500;
   color: white;
   text-align: center;
   letter-spacing: 5px;
-  transition: all .3s cubic-bezier(.3, 0, 0, 1.3);
+  opacity: 0; /* Initially hidden */
+  transition: all .3s ease;
 }
 
 .portfolio-card__link {
-  position: relative;
-  display: block;
+  position: absolute;
   width: 40%;
-  top: 200px;
+  top: 60%; /* Position slightly below the title */
+  left: 30%; /* Center horizontally */
   padding: 8px;
   margin: 0 auto;
   font-weight: 400;
-  margin-bottom: 5px;
   color: white;
-  letter-spacing: 1px;
   text-align: center;
   border: 1px solid white;
-  /* border-radius: 7px; */
-  font-size: 0.8em;
-  transition: all .3s cubic-bezier(.3, 0, 0, 1.3);
+  opacity: 0; /* Initially hidden */
+  transition: opacity .3s ease, top .3s ease;
 }
 
 a:hover {
@@ -227,25 +170,39 @@ a:hover {
   color: #202020;
 }
 
-.portfolio-card:hover .portfolio-card__title {
-  top: 0;
+
+.portfolio-card:hover .portfolio-card__overlay:after {
+  opacity: 0.75; /* Visible on hover */
+}
+
+.portfolio-card:hover .portfolio-card__title,
+.portfolio-card:hover .portfolio-card__link {
+  top: 40%; /* Adjust both to center vertically on hover */
+  opacity: 1; /* Make visible on hover */
 }
 
 .portfolio-card:hover .portfolio-card__link {
-  top: 0;
+  top: 50%; /* Initial top position for all links */
 }
 
-.portfolio-card:hover .portfolio-card__overlay:after {
-  opacity: 0.75;
+.portfolio-card:hover .portfolio-card__link:nth-of-type(2) {
+  top: 65%; /* Adjust the second link's position */
 }
-
 
 .card1 {
   background-image: url('https://i.imgur.com/ifUChnn.png');
 }
 
-.card2 {
-  background-image: url('https://lh3.googleusercontent.com/xn7stIw73j8d1Qt6fvyx_AtWzmNBnoMv_MyXuSXr_PG4uXbVmQgOYFOBw8-85YDTyK5df0nl=w640-h400-e365');
+.sequin {
+  background-image: url('https://i.imgur.com/VFUYB0z.png');
+}
+
+.tpc {
+  background-image: url('https://i.imgur.com/GN4sDAK.png');
+}
+
+.unit-switch {
+  background-image: url('https://i.imgur.com/gLA0mxF.png');
 }
 
 .card3 {

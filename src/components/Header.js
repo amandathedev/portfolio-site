@@ -10,7 +10,6 @@ const Header = () => {
           <br />
           Treutler
         </h1>
-        <h4>Software Engineer</h4>
       </div>
     </div>
   );

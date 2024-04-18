@@ -5,6 +5,12 @@
   margin-bottom: 10%;
 }
 
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .underline-contact {
   margin-bottom: 3em;
 }

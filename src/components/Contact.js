@@ -14,18 +14,18 @@ const Contact = () => {
           </a>
           <h6 class="font-weight-bold">GitHub</h6>
         </div>
-        <div class="col-4 col-md-4 col-lg-2 text-center">
+        {/* <div class="col-4 col-md-4 col-lg-2 text-center">
           <a href="https://www.linkedin.com/in/amandatreutler/">
             <i class="fab fa-linkedin fa-4x"></i>
           </a>
           <h6 class="font-weight-bold">LinkedIn</h6>
-        </div>
-        <div class="col-4 col-md-4 col-lg-2 text-center">
+        </div> */}
+        {/* <div class="col-4 col-md-4 col-lg-2 text-center">
           <a href="https://twitter.com/amandathedev">
             <i class="fab fa-twitter fa-4x"></i>
           </a>
           <h6 class="font-weight-bold">Twitter</h6>
-        </div>
+        </div> */}
         <div class="col-4 col-md-4 col-lg-2 text-center">
           <a href="https://medium.com/@amandathedev">
             <i class="fab fa-medium-m fa-4x"></i>
