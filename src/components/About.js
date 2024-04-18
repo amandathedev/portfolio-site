@@ -16,12 +16,13 @@ const About = () => {
           {' '}helping to provide menstrual products to people in need in Chicago.</p>
         </p>
       </div>
+      <p className="about-text">Download my resume below for the full story!</p>
       <a
         class="btn btn-outline-danger"
         href="https://drive.google.com/uc?export=download&id=14le7Z-00BUBbF0lI8_015DzGZ87Pbb-v"
         download
       >
-        <i class="fas fa-cloud-download-alt"></i> Download My Résumé
+        <i class="fas fa-cloud-download-alt"></i> Download
       </a>
       <div class="row languages">
         <div class="col-4 col-md-4 col-lg-2 text-center">

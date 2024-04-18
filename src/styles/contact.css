@@ -11,6 +11,12 @@
   justify-content: center;
 }
 
+.world-map {
+  width: 70%;
+  display: flex;
+  margin: 0 auto 4rem;
+}
+
 .underline-contact {
   margin-bottom: 3em;
 }

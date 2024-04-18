@@ -14,8 +14,7 @@ h1 {
   text-align: center;
   line-height: 0.75;
   margin: 10px 0;
-  letter-spacing: 4px;
-  text-shadow: 5px 5px #de539b;
+  letter-spacing: 3px;
   color: white;
   line-height: 0.8em;
 }
@@ -24,7 +23,7 @@ h4 {
   font-family: "Raleway", sans-serif;
   text-align: center;
   color: white;
-  text-shadow: 2px 2px #fb8593;
+
 }
 
 @media only screen and (min-width: 200px) {

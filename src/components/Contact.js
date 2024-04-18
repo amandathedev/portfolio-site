@@ -4,6 +4,8 @@ import "../styles/contact.css";
 const Contact = () => {
   return (
     <div id="contact" className="contact-div">
+      <h3>I also like to go places.</h3>
+      <img src="https://i.imgur.com/QCCOvDM.png" alt="map of places I've been" className="world-map"></img>
       <h2>Contact</h2>
       <div className="underline underline-contact"></div>
       <p className="contact-p">Get in touch if you'd like to know more!</p>
