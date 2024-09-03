@@ -9,21 +9,21 @@ const About = () => {
       <div className="about-content">
         <img className="main-photo" src="https://i.imgur.com/zsjWzPX.jpg" alt="Amanda Treutler"></img>
         <p className="about-text">
-          Hello! I'm Amanda Treutler. Get in touch if you'd like to work together on a project or if you have a social justice cause that needs a website built. I don't have a ton of free time but I'll always consider it or try to connect you with someone who can help.
+          Hello! I'm Amanda Treutler. Get in touch if you'd like to work together on a project or if you have a social justice cause that needs a website.
           <br />
           <br />
           <p>I volunteer with <a href="https://theperiodcollective.org/">The Period Collective</a> 
           {' '}helping to provide menstrual products to people in need in Chicago.</p>
         </p>
       </div>
-      <p className="about-text">Download my resume below for the full story!</p>
-      <a
-        class="btn btn-outline-danger"
-        href="https://drive.google.com/uc?export=download&id=14le7Z-00BUBbF0lI8_015DzGZ87Pbb-v"
-        download
-      >
-        <i class="fas fa-cloud-download-alt"></i> Download
-      </a>
+      {/*<p className="about-text">Download my resume below for the full story!</p>*/}
+      {/*<a*/}
+      {/*  class="btn btn-outline-danger"*/}
+      {/*  href="https://drive.google.com/uc?export=download&id=14le7Z-00BUBbF0lI8_015DzGZ87Pbb-v"*/}
+      {/*  download*/}
+      {/*>*/}
+      {/*  <i class="fas fa-cloud-download-alt"></i> Download*/}
+      {/*</a>*/}
       <div class="row languages">
         <div class="col-4 col-md-4 col-lg-2 text-center">
           <i class="fab fa-js fa-4x javascript"></i>
