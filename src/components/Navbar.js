@@ -4,9 +4,9 @@ import "../styles/navbar.css";
 const Navbar = () => {
   return (
     <div className="navbar-content">
-      <nav class="navbar navbar-expand-lg">
+      <nav className="navbar navbar-expand-lg">
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarTogglerDemo02"
@@ -14,25 +14,25 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon">
-            <i class="fas fa-bars"></i>
+          <span className="navbar-toggler-icon">
+            <i className="fas fa-bars"></i>
           </span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="#portfolio">
+        <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li className="nav-item">
+              <a className="nav-link" href="#portfolio">
                 PORTFOLIO
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#blog">
+            <li className="nav-item">
+              <a className="nav-link" href="#blog">
                 BLOG
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">
+            <li className="nav-item">
+              <a className="nav-link" href="#contact">
                 CONTACT
               </a>
             </li>
