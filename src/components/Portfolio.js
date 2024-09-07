@@ -9,17 +9,17 @@ const Portfolio = () => {
 
       <div className="portfolio-gallery">
 
-        <div className="portfolio-card sequin">
-          <div className="portfolio-card__overlay">
-            <h2 className="portfolio-card__title">Sequin</h2>
-            <a
-              className="portfolio-card__link"
-              href="https://www.sequincard.com/"
-            >
-              Live Site
-            </a>
-          </div>
-        </div>
+        {/*<div className="portfolio-card sequin">*/}
+        {/*  <div className="portfolio-card__overlay">*/}
+        {/*    <h2 className="portfolio-card__title">Sequin</h2>*/}
+        {/*    <a*/}
+        {/*      className="portfolio-card__link"*/}
+        {/*      href="https://www.sequincard.com/"*/}
+        {/*    >*/}
+        {/*      Live Site*/}
+        {/*    </a>*/}
+        {/*  </div>*/}
+        {/*</div>*/}
 
         <div className="portfolio-card tpc">
           <div className="portfolio-card__overlay">
