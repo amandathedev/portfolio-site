@@ -9,30 +9,42 @@ const Portfolio = () => {
 
       <div className="portfolio-gallery">
 
-        {/*<div className="portfolio-card sequin">*/}
-        {/*  <div className="portfolio-card__overlay">*/}
-        {/*    <h2 className="portfolio-card__title">Sequin</h2>*/}
-        {/*    <a*/}
-        {/*      className="portfolio-card__link"*/}
-        {/*      href="https://www.sequincard.com/"*/}
-        {/*    >*/}
-        {/*      Live Site*/}
-        {/*    </a>*/}
-        {/*  </div>*/}
-        {/*</div>*/}
-
         <div className="portfolio-card tpc">
           <div className="portfolio-card__overlay">
             <h2 className="portfolio-card__title">The Period Collective</h2>
             <a
-              className="portfolio-card__link"
-              href="https://i.imgur.com/GN4sDAK.png"
+                className="portfolio-card__link"
+                href="https://theperiodcollective.org/"
             >
               Live Site
             </a>
             <a
-              className="portfolio-card__link"
-              href="https://github.com/amandathedev/period-collective"
+                className="portfolio-card__link"
+                href="https://github.com/amandathedev/period-collective"
+            >
+              GitHub
+            </a>
+          </div>
+        </div>
+
+        {/*<div className="portfolio-card sequin">*/}
+        {/*  <div className="portfolio-card__overlay">*/}
+        {/*    <h2 className="portfolio-card__title">Sequin</h2>*/}
+        {/*  </div>*/}
+        {/*</div>*/}
+
+        <div className="portfolio-card sample-size">
+          <div className="portfolio-card__overlay">
+            <h2 className="portfolio-card__title">Sample Size</h2>
+            <a
+                className="portfolio-card__link"
+                href="https://chromewebstore.google.com/detail/sample-size/liibkodidconnkfecofhjbhkbdpmaick"
+            >
+              Publication
+            </a>
+            <a
+                className="portfolio-card__link"
+                href="https://github.com/amandathedev/sample-size"
             >
               GitHub
             </a>
@@ -43,14 +55,14 @@ const Portfolio = () => {
           <div className="portfolio-card__overlay">
             <h2 className="portfolio-card__title">UnitSwitch</h2>
             <a
-              className="portfolio-card__link"
-              href="https://chrome.google.com/webstore/detail/unitswitch/nbpfgdhlmmlpkdeaegalkhbkceicckpp"
+                className="portfolio-card__link"
+                href="https://chrome.google.com/webstore/detail/unitswitch/nbpfgdhlmmlpkdeaegalkhbkceicckpp"
             >
               Publication
             </a>
             <a
-              className="portfolio-card__link"
-              href="https://github.com/amandathedev/unit-switch"
+                className="portfolio-card__link"
+                href="https://github.com/amandathedev/unit-switch"
             >
               GitHub
             </a>
