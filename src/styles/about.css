@@ -10,6 +10,22 @@
   margin-top: 2%;
 }
 
+.name-highlight {
+  position: relative;
+  font-weight: bold;
+}
+
+.name-highlight::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, #efa7af, #0b54a1);
+  border-radius: 2px;
+}
+
 .about-content {
   display: flex;
   flex-direction: row;
@@ -20,6 +36,13 @@
     flex-direction: column;
   }
 }
+
+.openai-logo {
+  width: 4em;
+  height: auto;
+  margin-bottom: 0.5em;
+}
+
 
 .underline {
   height: 3px;
@@ -131,4 +154,37 @@
 
 .python:hover {
   color: #4b8bbe;
+}
+
+.resume-section {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.resume-text {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.resume-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #0b54a1;
+  background: transparent;
+  border: 2px solid #0b54a1;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.resume-download-btn:hover {
+  background: #0b54a1;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
 }

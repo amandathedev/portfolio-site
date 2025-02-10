@@ -1,0 +1,66 @@
+.chatbot-popup {
+  position: fixed;
+  z-index: 1000;
+  bottom: 20px;
+  right: 20px;
+  width: 360px;
+  height: 500px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+}
+
+.chatbot-popup.minimized {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.chatbot-header {
+  background: linear-gradient(45deg, #6b5b95, #b8a9c9);
+  color: #fff;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 14px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.chatbot-header button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.chatbot-header button:hover {
+  opacity: 0.8;
+}
+
+.chatbot-iframe {
+  width: 100%;
+  //background: red !important;
+  height: 100%;
+  border: none;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+.chatbot-popup.minimized span {
+  font-size: 22px;
+  color: #6b5b95;
+}
