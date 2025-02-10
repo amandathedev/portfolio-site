@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/about.css";
 // import openaiLogo from "../openai.png";
-import amanda from "../amanda.JPG";
+import amanda from "../amanda.webp";
 import { BsChatSquareHeart } from "react-icons/bs";
 
 const About = () => {

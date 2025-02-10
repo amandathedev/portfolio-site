@@ -91,7 +91,7 @@ h4 {
 .main-box {
   background-image: url("https://images.unsplash.com/photo-1415025148099-17fe74102b28?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2040&q=80");
   background-size: cover;
-  height: 30vh;
+  height: 24vh;
   width: 100vw;
 
   @media (max-width: 768px) {
