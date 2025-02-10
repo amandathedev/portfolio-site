@@ -8,6 +8,7 @@ import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 // import Thesis from "./components/Thesis";
+import ChatbotPopup from "./components/ChatbotPopup";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       {/*<Thesis />*/}
       <Contact />
       <Footer />
+      <ChatbotPopup />
     </div>
   );
 }
