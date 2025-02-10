@@ -27,11 +27,11 @@ const Portfolio = () => {
           </div>
         </div>
 
-        {/*<div className="portfolio-card sequin">*/}
-        {/*  <div className="portfolio-card__overlay">*/}
-        {/*    <h2 className="portfolio-card__title">Sequin</h2>*/}
-        {/*  </div>*/}
-        {/*</div>*/}
+        <div className="portfolio-card sequin">
+          <div className="portfolio-card__overlay">
+            <h2 className="portfolio-card__title">Sequin</h2>
+          </div>
+        </div>
 
         <div className="portfolio-card sample-size">
           <div className="portfolio-card__overlay">
