@@ -21,7 +21,7 @@ import './App.css';
 import './ipod.css';
 
 const WINDOW_CONFIG = {
-  about: { title: 'About Me', width: 540, height: 460, x: 60, y: 50 },
+  about: { title: 'About Me', width: 540, height: 520, x: 60, y: 40 },
   portfolio: { title: 'Portfolio', width: 520, height: 440, x: 100, y: 70 },
   blog: { title: 'Blog', width: 480, height: 420, x: 140, y: 55 },
   contact: { title: 'Contact', width: 380, height: 260, x: 180, y: 90 },

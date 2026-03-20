@@ -50,6 +50,15 @@ const AboutContent = () => {
         <div className="about-skill"><i className="fab fa-aws" aria-hidden="true"></i>AWS</div>
         <div className="about-skill"><i className="fas fa-robot" aria-hidden="true"></i>OpenAI</div>
       </div>
+
+      <div className="about-divider" />
+
+      <div className="about-skills-title">I also like to go places</div>
+      <img
+        className="about-map"
+        src="/travel-map.jpg"
+        alt="World map showing countries I've visited, colored by region"
+      />
     </div>
   );
 };

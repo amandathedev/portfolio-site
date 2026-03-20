@@ -507,6 +507,12 @@
   transition: color 0.15s;
 }
 
+.about-map {
+  width: 100%;
+  border: 1px solid #ddd;
+  margin-top: 4px;
+}
+
 .about-skill:hover i.fa-js { color: #f0db4f; }
 .about-skill:hover i.fa-react { color: #61dafb; }
 .about-skill:hover i.fa-gem { color: #cc342d; }
