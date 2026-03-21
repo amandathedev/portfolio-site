@@ -42,6 +42,15 @@ const projects = [
       { label: 'GitHub', url: 'https://github.com/amandathedev/unit-switch' },
     ],
   },
+  {
+    name: 'Cute Sudoku',
+    desc: 'A cute and fun Sudoku puzzle game.',
+    icon: '🧩',
+    links: [
+      { label: 'Live Site', url: 'https://cutesudoku.netlify.app/', embeddable: true },
+      { label: 'GitHub', url: 'https://github.com/amandathedev/sudoku' },
+    ],
+  },
 ];
 
 const PortfolioContent = () => {

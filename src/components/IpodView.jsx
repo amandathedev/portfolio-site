@@ -35,6 +35,14 @@ const PORTFOLIO_ITEMS = [
       { label: 'GitHub', url: 'https://github.com/amandathedev/unit-switch' },
     ],
   },
+  {
+    label: 'Cute Sudoku',
+    id: 'cutesudoku',
+    children: [
+      { label: 'Live Site', url: 'https://cutesudoku.netlify.app/' },
+      { label: 'GitHub', url: 'https://github.com/amandathedev/sudoku' },
+    ],
+  },
 ];
 
 const BLOG_ITEMS = [
