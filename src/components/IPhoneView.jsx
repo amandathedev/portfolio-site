@@ -248,7 +248,6 @@ function AppIcon({ icon, onClick }) {
         ) : icon.img ? (
           <div className="iphone-app-icon-img">
             <img src={icon.img} alt={icon.label} />
-            <div className="iphone-app-icon-shine" />
           </div>
         ) : (
           <div className="iphone-app-icon-image" style={{ background: icon.gradient }}>
