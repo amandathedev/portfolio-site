@@ -5,7 +5,7 @@ import MacWindow from './components/MacWindow.jsx';
 import MemphisWallpaper from './components/MemphisWallpaper.jsx';
 import NetscapeWindow from './components/NetscapeWindow.jsx';
 import NetscapeContext from './components/NetscapeContext.jsx';
-import IpodView from './components/IpodView.jsx';
+import IPhoneView from './components/IPhoneView.jsx';
 import AboutContent from './components/windows/AboutContent.jsx';
 import PortfolioContent from './components/windows/PortfolioContent.jsx';
 import BlogContent from './components/windows/BlogContent.jsx';
@@ -18,7 +18,7 @@ import StickyNote from './components/StickyNote.jsx';
 import macLogo from './mac-logo.svg';
 import finderWallpaper from './wallpaper-finder.webp';
 import './App.css';
-import './ipod.css';
+import './iphone.css';
 
 const WINDOW_CONFIG = {
   about: { title: 'About Me', width: 540, height: 520, x: 60, y: 40 },
@@ -64,13 +64,12 @@ function getDefaultIconPositions() {
 
 let netscapeCounter = 0;
 
-function useIsMobile(breakpoint = 768) {
-  const [isMobile, setIsMobile] = useState(window.innerWidth < breakpoint);
-  useEffect(() => {
-    const handleResize = () => setIsMobile(window.innerWidth < breakpoint);
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, [breakpoint]);
+function useIsMobile() {
+  const [isMobile] = useState(() => {
+    const hasTouch = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+    const smallScreen = Math.min(window.screen.width, window.screen.height) < 768;
+    return hasTouch && smallScreen;
+  });
   return isMobile;
 }
 
@@ -464,7 +463,7 @@ function DesktopApp() {
 
 function App() {
   const isMobile = useIsMobile();
-  return isMobile ? <IpodView /> : <DesktopApp />;
+  return isMobile ? <IPhoneView /> : <DesktopApp />;
 }
 
 export default App;
