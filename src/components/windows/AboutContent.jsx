@@ -48,7 +48,7 @@ const AboutContent = () => {
         <div className="about-skill"><i className="fas fa-database" aria-hidden="true"></i>PostgreSQL</div>
         <div className="about-skill"><i className="fab fa-docker" aria-hidden="true"></i>Docker</div>
         <div className="about-skill"><i className="fab fa-aws" aria-hidden="true"></i>AWS</div>
-        <div className="about-skill"><i className="fas fa-robot" aria-hidden="true"></i>OpenAI</div>
+        <div className="about-skill"><i className="fas fa-robot" aria-hidden="true"></i>Anthropic</div>
       </div>
 
       <div className="about-divider" />
