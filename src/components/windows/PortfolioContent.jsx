@@ -1,7 +1,16 @@
 import { useNetscape } from '../NetscapeContext.jsx';
 
 const projects = [
+
   {
+    name: 'The Period Collective',
+    desc: 'Nonprofit providing menstrual products to people in need in Chicago.',
+    icon: '🌸',
+    links: [
+      { label: 'Live Site', url: 'https://theperiodcollective.org/', embeddable: true },
+      { label: 'GitHub', url: 'https://github.com/amandathedev/period-collective' },
+    ],
+  },  {
     name: 'World Cup 2026',
     desc: 'Live schedule, standings, bracket, and pick’em for the 2026 World Cup.',
     icon: '⚽',
@@ -11,19 +20,10 @@ const projects = [
   },
   {
     name: 'Love Island Villa',
-    desc: 'Drag-and-drop couples tracker for Love Island USA — recouple the villa, rank islanders, keep notes.',
+    desc: 'Drag-and-drop couples tracker for Love Island USA. Recouple the villa, rank islanders, keep notes.',
     icon: '🏝️',
     links: [
       { label: 'Live Site', url: 'https://loveislandvilla.netlify.app/', embeddable: true },
-    ],
-  },
-  {
-    name: 'The Period Collective',
-    desc: 'Nonprofit providing menstrual products to people in need in Chicago.',
-    icon: '🌸',
-    links: [
-      { label: 'Live Site', url: 'https://theperiodcollective.org/', embeddable: true },
-      { label: 'GitHub', url: 'https://github.com/amandathedev/period-collective' },
     ],
   },
   {
@@ -66,8 +66,7 @@ const projects = [
       { label: 'Live Site', url: 'https://cutesudoku.netlify.app/', embeddable: true },
       { label: 'GitHub', url: 'https://github.com/amandathedev/sudoku' },
     ],
-  },
-];
+  },];
 
 const PortfolioContent = () => {
   const openNetscape = useNetscape();

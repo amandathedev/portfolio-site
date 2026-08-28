@@ -7,7 +7,16 @@ const TECHS = [
 ];
 
 const PROJECTS = [
+
   {
+    name: 'The Period Collective',
+    desc: 'Nonprofit providing menstrual products to people in need in Chicago.',
+    icon: '🌸',
+    links: [
+      { label: 'Live Site', url: 'https://theperiodcollective.org/' },
+      { label: 'GitHub', url: 'https://github.com/amandathedev/period-collective' },
+    ],
+  },  {
     name: 'World Cup 2026',
     desc: 'Live schedule, standings, bracket, and pick’em for the 2026 World Cup.',
     icon: '⚽',
@@ -17,19 +26,10 @@ const PROJECTS = [
   },
   {
     name: 'Love Island Villa',
-    desc: 'Drag-and-drop couples tracker for Love Island USA — recouple the villa, rank islanders, keep notes.',
+    desc: 'Drag-and-drop couples tracker for Love Island USA. Recouple the villa, rank islanders, keep notes.',
     icon: '🏝️',
     links: [
       { label: 'Live Site', url: 'https://loveislandvilla.netlify.app/' },
-    ],
-  },
-  {
-    name: 'The Period Collective',
-    desc: 'Nonprofit providing menstrual products to people in need in Chicago.',
-    icon: '🌸',
-    links: [
-      { label: 'Live Site', url: 'https://theperiodcollective.org/' },
-      { label: 'GitHub', url: 'https://github.com/amandathedev/period-collective' },
     ],
   },
   {
@@ -66,8 +66,7 @@ const PROJECTS = [
       { label: 'Live Site', url: 'https://cutesudoku.netlify.app/' },
       { label: 'GitHub', url: 'https://github.com/amandathedev/sudoku' },
     ],
-  },
-];
+  },];
 
 const BLOG_POSTS = [
   { title: 'Anagram Algorithm w/ Frequency Counter', url: 'https://levelup.gitconnected.com/how-to-solve-an-anagram-algorithm-using-a-frequency-counter-5bb1f0b817ef', img: 'https://miro.medium.com/v2/resize:fit:400/1*t-T2d675Vgk1yWKjmgi7mw.jpeg' },
