@@ -1,72 +1,11 @@
 import { useState, useCallback, useRef } from 'react';
 import amanda from '../amanda-profile.png';
+import { projects as PROJECTS } from '../projects.js';
 
 const TECHS = [
   'JavaScript', 'React', 'React Native', 'TypeScript', 'Tailwind', 'Sass',
   'Ruby on Rails', 'NodeJS', 'GraphQL', 'PostgreSQL', 'Docker', 'AWS', 'Anthropic',
 ];
-
-const PROJECTS = [
-
-  {
-    name: 'The Period Collective',
-    desc: 'Nonprofit providing menstrual products to people in need in Chicago.',
-    icon: '🌸',
-    links: [
-      { label: 'Live Site', url: 'https://theperiodcollective.org/' },
-      { label: 'GitHub', url: 'https://github.com/amandathedev/period-collective' },
-    ],
-  },  {
-    name: 'World Cup 2026',
-    desc: 'Live schedule, standings, bracket, and pick’em for the 2026 World Cup.',
-    icon: '⚽',
-    links: [
-      { label: 'Live Site', url: 'https://worldcupppp.netlify.app/' },
-    ],
-  },
-  {
-    name: 'Love Island Villa',
-    desc: 'Drag-and-drop couples tracker for Love Island USA. Recouple the villa, rank islanders, keep notes.',
-    icon: '🏝️',
-    links: [
-      { label: 'Live Site', url: 'https://loveislandvilla.netlify.app/' },
-    ],
-  },
-  {
-    name: 'Sequin',
-    desc: 'The debit card that fights the Pink Tax. (Now defunct)',
-    icon: '💳',
-    links: [
-      { label: 'Screenshot', url: '/sequin-screenshot.png' },
-    ],
-  },
-  {
-    name: 'Sample Size',
-    desc: 'Chrome extension for quick analytics sampling.',
-    icon: '📊',
-    links: [
-      { label: 'Chrome Store', url: 'https://chromewebstore.google.com/detail/sample-size/liibkodidconnkfecofhjbhkbdpmaick' },
-      { label: 'GitHub', url: 'https://github.com/amandathedev/sample-size' },
-    ],
-  },
-  {
-    name: 'UnitSwitch',
-    desc: 'Chrome extension for instant unit conversions.',
-    icon: '🔄',
-    links: [
-      { label: 'Chrome Store', url: 'https://chrome.google.com/webstore/detail/unitswitch/nbpfgdhlmmlpkdeaegalkhbkceicckpp' },
-      { label: 'GitHub', url: 'https://github.com/amandathedev/unit-switch' },
-    ],
-  },
-  {
-    name: 'Cute Sudoku',
-    desc: 'A cute and fun Sudoku puzzle game.',
-    icon: '🧩',
-    links: [
-      { label: 'Live Site', url: 'https://cutesudoku.netlify.app/' },
-      { label: 'GitHub', url: 'https://github.com/amandathedev/sudoku' },
-    ],
-  },];
 
 const BLOG_POSTS = [
   { title: 'Anagram Algorithm w/ Frequency Counter', url: 'https://levelup.gitconnected.com/how-to-solve-an-anagram-algorithm-using-a-frequency-counter-5bb1f0b817ef', img: 'https://miro.medium.com/v2/resize:fit:400/1*t-T2d675Vgk1yWKjmgi7mw.jpeg' },
@@ -355,7 +294,7 @@ function PortfolioPage({ onBack }) {
               {project.links.map((link, i) => (
                 <a
                   key={link.label}
-                  href={link.url}
+                  href={link.imageUrl || link.url}
                   target="_blank"
                   rel="noopener noreferrer"
                   className={`ios-cell ios-cell-link${i < project.links.length - 1 ? ' ios-cell-border' : ''}`}
